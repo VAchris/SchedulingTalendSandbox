@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="null=>" expression="">
+  <variables name="orders.sysid" value="0" talendType="id_Integer"/>
+  <variables name="orders.orderId" value="null" talendType="id_String"/>
+  <variables name="orders.customerReference" value="null" talendType="id_String"/>
+  <variables name="orders.customerId" value="0" talendType="id_Integer"/>
+  <variables name="orders.title" value="null" talendType="id_String" nullable="true"/>
+  <variables name="orders.description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="orders.orderType" value="null" talendType="id_String" nullable="true"/>
+  <variables name="orderItems.sysid" value="0" talendType="id_Integer"/>
+  <variables name="orderItems.orderid" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="orderItems.productid" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="orderItems.lineitem" value="null" talendType="id_String" nullable="true"/>
+  <variables name="orderItems.title" value="null" talendType="id_String" nullable="true"/>
+  <variables name="orderItems.description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="orderItems.quantity" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="products.sysid" value="0" talendType="id_Integer"/>
+  <variables name="products.productId" value="null" talendType="id_String"/>
+  <variables name="products.title" value="null" talendType="id_String" nullable="true"/>
+  <variables name="products.description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="products.listPrice" value="null" talendType="id_Float" nullable="true"/>
+</expression:EMFExpression>

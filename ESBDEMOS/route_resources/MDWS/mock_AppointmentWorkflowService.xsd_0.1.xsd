@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.2.0-1 (tags/2.2.0u1-7139; 2012-06-02T10:55:19+0000) JAXWS-RI/2.2.6-2 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://webservice.mock.talend.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://webservice.mock.talend.com/">
+
+<xs:element name="makeAppointmentWorkflow" type="tns:makeAppointmentWorkflow"/>
+
+<xs:element name="makeAppointmentWorkflowResponse" type="tns:makeAppointmentWorkflowResponse"/>
+
+<xs:complexType name="makeAppointmentWorkflow">
+<xs:sequence>
+<xs:element name="arg0" type="tns:appointment" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="appointment">
+<xs:sequence>
+<xs:element name="appointmentDate" type="xs:string" minOccurs="0"/>
+<xs:element name="appointmentLength" type="xs:string" minOccurs="0"/>
+<xs:element name="clinicIen" type="xs:string" minOccurs="0"/>
+<xs:element name="patientIen" type="xs:string" minOccurs="0"/>
+<xs:element name="patientSsn" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="makeAppointmentWorkflowResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:appointmentResponse" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="appointmentResponse">
+<xs:complexContent>
+<xs:extension base="tns:appointment">
+<xs:sequence>
+<xs:element name="patientAddress" type="xs:string" minOccurs="0"/>
+<xs:element name="patientEmail" type="xs:string" minOccurs="0"/>
+<xs:element name="patientPhoneNumber" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+</xs:schema>

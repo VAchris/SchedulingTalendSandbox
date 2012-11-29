@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_c-NrMDO0EeKVP8qhNgjl6Q" WSDLPath="" servicePort="_tLl0IDQ1EeKKRr0-N0AzRA"/>
+  <Services:ServicePort xmi:id="_tLl0IDQ1EeKKRr0-N0AzRA" name="CustomerRepo" id="_svoQ4DQ1EeKKRr0-N0AzRA" serviceOperation="_tLl0ITQ1EeKKRr0-N0AzRA _tLl0IjQ1EeKKRr0-N0AzRA _tLl0IzQ1EeKKRr0-N0AzRA _tLl0JDQ1EeKKRr0-N0AzRA _tLl0JTQ1EeKKRr0-N0AzRA"/>
+  <Services:ServiceOperation xmi:id="_tLl0ITQ1EeKKRr0-N0AzRA" label="getCustomer" name="getCustomer" id="_svoQ4TQ1EeKKRr0-N0AzRA"/>
+  <Services:ServiceOperation xmi:id="_tLl0IjQ1EeKKRr0-N0AzRA" label="updateCustomer" name="updateCustomer" id="_svoQ4jQ1EeKKRr0-N0AzRA"/>
+  <Services:ServiceOperation xmi:id="_tLl0IzQ1EeKKRr0-N0AzRA" label="deleteCustomer" name="deleteCustomer" id="_svoQ4zQ1EeKKRr0-N0AzRA"/>
+  <Services:ServiceOperation xmi:id="_tLl0JDQ1EeKKRr0-N0AzRA" label="getCustomerAddress" name="getCustomerAddress" id="_svoQ5DQ1EeKKRr0-N0AzRA"/>
+  <Services:ServiceOperation xmi:id="_tLl0JTQ1EeKKRr0-N0AzRA" label="addCustomer" name="addCustomer" id="_svoQ5TQ1EeKKRr0-N0AzRA"/>
+</xmi:XMI>

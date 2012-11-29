@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"	
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+         ">
+
+	<bean id="contextHandle" class="beans.ContextHandle" />
+
+
+	<!-- reference this traditional properties util bean from the placeholder bean so that other 
+	osgi property placeholders can be used as well.  Initialize the name of the properties file
+	using environment or java system variables set via maven or the launch script -->
+	<!-- util:properties id="propertySources" location="studio.properties" / -->
+
+	<!-- use this underlying PropertiesFactoryBean to reference multiple properties files, 
+	if there are duplicate keys subsequent entries override earlier entries -->
+	<bean id="propertySources" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="locations">
+			<list>
+				<value>file:c:/Users/EdwardOst/workspace/indigo/sampleroute/src/main/resources/container.properties</value>
+				<value>file:c:/Users/EdwardOst/workspace/indigo/sampleroute/src/main/resources/beans.properties</value>
+				<value>file:c:/Users/EdwardOst/workspace/indigo/sampleroute/src/main/resources/integration.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="springPlaceholderConfig"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="properties" ref="propertySources"/>
+	</bean>
+
+	<bean id="containerPlaceholderChecker" class="com.talend.se.util.PropertyList">
+		<property name="properties">
+			<props>
+				<prop key="containerName">${containerName}</prop>
+				<prop key="appName">${appName}</prop>
+				<prop key="mediationName">${mediationName}</prop>
+			</props>
+		</property>
+	</bean>
+
+</beans>

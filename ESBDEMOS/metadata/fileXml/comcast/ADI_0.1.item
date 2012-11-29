@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_NfUaExEfEeKT_OvCFC8tAQ" name="repository.metadataFileXml" dataPackage="_NfUaFxEfEeKT_OvCFC8tAQ" XmlFilePath="C:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/Comcast/ADI.XML" Encoding="UTF-8">
+    <schema xmi:id="_NfUaFBEfEeKT_OvCFC8tAQ" LimitBoucle="50" AbsoluteXPathQuery="/ADI">
+      <schemaTargets xmi:id="_NfUaFREfEeKT_OvCFC8tAQ" RelativeXPathQuery="Metadata" TagName="Metadata"/>
+      <schemaTargets xmi:id="_NfUaFhEfEeKT_OvCFC8tAQ" RelativeXPathQuery="Metadata/AMS" TagName="AMS"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_NfUaFxEfEeKT_OvCFC8tAQ" name="repository.metadataFileXml" dataManager="_NfUaExEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NfUaGBEfEeKT_OvCFC8tAQ" id="_te-wAG4NEeGBSdOj-snqgA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NfUaGREfEeKT_OvCFC8tAQ" label="Metadata" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NfUaGhEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NfUaGxEfEeKT_OvCFC8tAQ" label="AMS" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NfUaHBEfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_JwsRsJp6EeGKeKtq2xYg2g" defaultContext="Default" screenshot="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">
+  <context xmi:id="_JwsRsZp6EeGKeKtq2xYg2g" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_JwsRspp6EeGKeKtq2xYg2g">
+    <elementParameter xmi:id="_JwsRs5p6EeGKeKtq2xYg2g" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter xmi:id="_JwsRtJp6EeGKeKtq2xYg2g" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter xmi:id="_JwsRtZp6EeGKeKtq2xYg2g" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter xmi:id="_JwsRtpp6EeGKeKtq2xYg2g" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_JwsRt5p6EeGKeKtq2xYg2g" field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter xmi:id="_JwsRuJp6EeGKeKtq2xYg2g" field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
+    <elementParameter xmi:id="_JwsRuZp6EeGKeKtq2xYg2g" field="TEXT" name="HADOOP_APP_PATH" value=""/>
+    <elementParameter xmi:id="_JwsRupp6EeGKeKtq2xYg2g" field="TEXT" name="JOBID_FOR_OOZIE" value=""/>
+    <routinesParameter xmi:id="_mztSogSVEeG3dc8_QKu3vA" id="__utwwARrEeGb2dr9_uAKEQ" name="DataOperation"/>
+    <routinesParameter xmi:id="_mztSowSVEeG3dc8_QKu3vA" id="__v3AQARrEeGb2dr9_uAKEQ" name="Mathematical"/>
+    <routinesParameter xmi:id="_mztSpASVEeG3dc8_QKu3vA" id="__wCmcARrEeGb2dr9_uAKEQ" name="Numeric"/>
+    <routinesParameter xmi:id="_mztSpQSVEeG3dc8_QKu3vA" id="__wWIcARrEeGb2dr9_uAKEQ" name="Relational"/>
+    <routinesParameter xmi:id="_mztSpgSVEeG3dc8_QKu3vA" id="__wstwARrEeGb2dr9_uAKEQ" name="StringHandling"/>
+    <routinesParameter xmi:id="_mztSpwSVEeG3dc8_QKu3vA" id="__xEhMARrEeGb2dr9_uAKEQ" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_mztSqASVEeG3dc8_QKu3vA" id="__xR8kARrEeGb2dr9_uAKEQ" name="TalendDate"/>
+    <routinesParameter xmi:id="_mztSqQSVEeG3dc8_QKu3vA" id="__xibQARrEeGb2dr9_uAKEQ" name="TalendString"/>
+    <routinesParameter xmi:id="_3wtwwR9MEeGM8PtbS-QM0A" id="_mkQOEB8zEeGM8PtbS-QM0A" name="SQLike"/>
+  </parameters>
+  <node xmi:id="_JwsRu5p6EeGKeKtq2xYg2g" componentName="cCXF" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="160">
+    <elementParameter xmi:id="_JwsRvJp6EeGKeKtq2xYg2g" field="TEXT" name="UNIQUE_NAME" value="cCXF_1"/>
+    <elementParameter xmi:id="_JwsRvZp6EeGKeKtq2xYg2g" field="CHECK" name="START" value="true"/>
+    <elementParameter xmi:id="_JwsRvpp6EeGKeKtq2xYg2g" field="TEXT" name="ADDRESS" value="&quot;http://0.0.0.0:8050/services/DemoService/&quot;"/>
+    <elementParameter xmi:id="_JwsRv5p6EeGKeKtq2xYg2g" field="CLOSED_LIST" name="SERVICE_TYPE" value="wsdlURL"/>
+    <elementParameter xmi:id="_JwsRwJp6EeGKeKtq2xYg2g" field="FILE" name="WSDL_FILE" value="&quot;http://localhost:8040/services/DemoService/?wsdl&quot;"/>
+    <elementParameter xmi:id="_JwsRwZp6EeGKeKtq2xYg2g" field="TEXT" name="SERVICE_CLASS" value="&quot;beans.ServiceClass&quot;"/>
+    <elementParameter xmi:id="_JwsRwpp6EeGKeKtq2xYg2g" field="CLOSED_LIST" name="DATAFORMAT" value="PAYLOAD"/>
+    <elementParameter xmi:id="_JwsRw5p6EeGKeKtq2xYg2g" field="CHECK" name="SPECIFY_SERVICE" value="false"/>
+    <elementParameter xmi:id="_JwsRxJp6EeGKeKtq2xYg2g" field="TEXT" name="SERVICE_NAME" value="&quot;{http://www.talend.com}ServiceName&quot;"/>
+    <elementParameter xmi:id="_JwsRxZp6EeGKeKtq2xYg2g" field="TEXT" name="PORT_NAME" value="&quot;{http://www.talend.com}PortName&quot;"/>
+    <elementParameter xmi:id="_JwsRxpp6EeGKeKtq2xYg2g" field="CHECK" name="ENABLE_SL" value="false"/>
+    <elementParameter xmi:id="_JwsRx5p6EeGKeKtq2xYg2g" field="CHECK" name="ENABLE_SAM" value="false"/>
+    <elementParameter xmi:id="_JwsRyJp6EeGKeKtq2xYg2g" field="TABLE" name="SL_META_DATA"/>
+    <elementParameter xmi:id="_JwsRyZp6EeGKeKtq2xYg2g" field="CHECK" name="ENABLE_SAM_MESSAGE" value="false"/>
+    <elementParameter xmi:id="_JwsRypp6EeGKeKtq2xYg2g" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_JwsRy5p6EeGKeKtq2xYg2g" field="TEXT" name="LABEL" value="newDemoCXF"/>
+    <elementParameter xmi:id="_JwsRzJp6EeGKeKtq2xYg2g" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JwsRzZp6EeGKeKtq2xYg2g" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_JwsRzpp6EeGKeKtq2xYg2g" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_JwsRz5p6EeGKeKtq2xYg2g" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_JwsR0Jp6EeGKeKtq2xYg2g" componentName="cCXF" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="160">
+    <elementParameter xmi:id="_JwsR0Zp6EeGKeKtq2xYg2g" field="TEXT" name="UNIQUE_NAME" value="cCXF_2"/>
+    <elementParameter xmi:id="_JwsR0pp6EeGKeKtq2xYg2g" field="TEXT" name="ADDRESS" value="&quot;http://localhost:8040/services/DemoService/&quot;"/>
+    <elementParameter xmi:id="_JwsR05p6EeGKeKtq2xYg2g" field="CLOSED_LIST" name="SERVICE_TYPE" value="wsdlURL"/>
+    <elementParameter xmi:id="_JwsR1Jp6EeGKeKtq2xYg2g" field="FILE" name="WSDL_FILE" value="&quot;http://localhost:8040/services/DemoService/?wsdl&quot;"/>
+    <elementParameter xmi:id="_JwsR1Zp6EeGKeKtq2xYg2g" field="TEXT" name="SERVICE_CLASS" value="&quot;beans.ServiceClass&quot;"/>
+    <elementParameter xmi:id="_JwsR1pp6EeGKeKtq2xYg2g" field="CLOSED_LIST" name="DATAFORMAT" value="PAYLOAD"/>
+    <elementParameter xmi:id="_JwsR15p6EeGKeKtq2xYg2g" field="CHECK" name="SPECIFY_SERVICE" value="false"/>
+    <elementParameter xmi:id="_JwsR2Jp6EeGKeKtq2xYg2g" field="TEXT" name="SERVICE_NAME" value="&quot;{http://www.talend.com}ServiceName&quot;"/>
+    <elementParameter xmi:id="_JwsR2Zp6EeGKeKtq2xYg2g" field="TEXT" name="PORT_NAME" value="&quot;{http://www.talend.com}PortName&quot;"/>
+    <elementParameter xmi:id="_JwsR2pp6EeGKeKtq2xYg2g" field="CHECK" name="ENABLE_SL" value="false"/>
+    <elementParameter xmi:id="_JwsR25p6EeGKeKtq2xYg2g" field="CHECK" name="ENABLE_SAM" value="false"/>
+    <elementParameter xmi:id="_JwsR3Jp6EeGKeKtq2xYg2g" field="TABLE" name="SL_META_DATA"/>
+    <elementParameter xmi:id="_JwsR3Zp6EeGKeKtq2xYg2g" field="CHECK" name="ENABLE_SAM_MESSAGE" value="false"/>
+    <elementParameter xmi:id="_JwsR3pp6EeGKeKtq2xYg2g" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_JwsR35p6EeGKeKtq2xYg2g" field="TEXT" name="LABEL" value="DemoCXF"/>
+    <elementParameter xmi:id="_JwsR4Jp6EeGKeKtq2xYg2g" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JwsR4Zp6EeGKeKtq2xYg2g" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_JwsR4pp6EeGKeKtq2xYg2g" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_JwsR45p6EeGKeKtq2xYg2g" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_JwsR5Jp6EeGKeKtq2xYg2g" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
+    <elementParameter xmi:id="_JwsR5Zp6EeGKeKtq2xYg2g" field="TEXT" name="UNIQUE_NAME" value="cLog_1"/>
+    <elementParameter xmi:id="_JwsR5pp6EeGKeKtq2xYg2g" field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO"/>
+    <elementParameter xmi:id="_JwsR55p6EeGKeKtq2xYg2g" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_JwsR6Jp6EeGKeKtq2xYg2g" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_JwsR6Zp6EeGKeKtq2xYg2g" field="TEXT" name="SIZE" value="1"/>
+    <elementParameter xmi:id="_JwsR6pp6EeGKeKtq2xYg2g" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_JwsR65p6EeGKeKtq2xYg2g" field="TEXT" name="INTERVAL" value="1"/>
+    <elementParameter xmi:id="_JwsR7Jp6EeGKeKtq2xYg2g" field="TEXT" name="DELAY" value="0"/>
+    <elementParameter xmi:id="_JwsR7Zp6EeGKeKtq2xYg2g" field="CHECK" name="ACTIVE_ONLY" value="true"/>
+    <elementParameter xmi:id="_JwsR7pp6EeGKeKtq2xYg2g" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_JwsR75p6EeGKeKtq2xYg2g" field="TABLE" name="ARGUMENTS"/>
+    <elementParameter xmi:id="_JwsR8Jp6EeGKeKtq2xYg2g" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_JwsR8Zp6EeGKeKtq2xYg2g" field="TEXT" name="MESSAGE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_JwsR8pp6EeGKeKtq2xYg2g" field="TEXT" name="LABEL" value="proxyLog"/>
+    <elementParameter xmi:id="_JwsR85p6EeGKeKtq2xYg2g" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JwsR9Jp6EeGKeKtq2xYg2g" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_JwsR9Zp6EeGKeKtq2xYg2g" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_JwsR9pp6EeGKeKtq2xYg2g" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <connection xmi:id="_JwsR95p6EeGKeKtq2xYg2g" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cCXF_1" offsetLabelX="0" offsetLabelY="0" source="cCXF_1" target="cLog_1">
+    <elementParameter xmi:id="_JwsR-Jp6EeGKeKtq2xYg2g" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_JwsR-Zp6EeGKeKtq2xYg2g" field="TEXT" name="UNIQUE_NAME" value="route1"/>
+  </connection>
+  <connection xmi:id="_JwsR-pp6EeGKeKtq2xYg2g" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cLog_1" offsetLabelX="0" offsetLabelY="0" source="cLog_1" target="cCXF_2">
+    <elementParameter xmi:id="_JwsR-5p6EeGKeKtq2xYg2g" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_JwsR_Jp6EeGKeKtq2xYg2g" field="TEXT" name="UNIQUE_NAME" value="route2"/>
+  </connection>
+  <note xmi:id="_JwsR_Zp6EeGKeKtq2xYg2g" opaque="true" posX="64" posY="256" sizeHeight="65" sizeWidth="545" text="Please make sure Talend ESB Runtime is running and DemoService &#xD;&#xA;is deployed there">
+    <elementParameter xmi:id="_JwsR_pp6EeGKeKtq2xYg2g" field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
+    <elementParameter xmi:id="_JwsR_5p6EeGKeKtq2xYg2g" field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
+    <elementParameter xmi:id="_JwsSAJp6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_LEFT" value="false"/>
+    <elementParameter xmi:id="_JwsSAZp6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_RIGHT" value="false"/>
+    <elementParameter xmi:id="_JwsSApp6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_CENTER" value="true"/>
+    <elementParameter xmi:id="_JwsSA5p6EeGKeKtq2xYg2g" field="RADIO" name="NOTELABEL_CENTER" value="true"/>
+    <elementParameter xmi:id="_JwsSBJp6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_TOP" value="false"/>
+    <elementParameter xmi:id="_JwsSBZp6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_BOTTOM" value="false"/>
+    <elementParameter xmi:id="_JwsSBpp6EeGKeKtq2xYg2g" field="TEXT" name="NOTE_FONT" value="Time New Roman"/>
+    <elementParameter xmi:id="_JwsSB5p6EeGKeKtq2xYg2g" field="TEXT" name="FONT_SIZE" value="11"/>
+    <elementParameter xmi:id="_JwsSCJp6EeGKeKtq2xYg2g" field="CHECK" name="FONT_BOLD" value="false"/>
+    <elementParameter xmi:id="_JwsSCZp6EeGKeKtq2xYg2g" field="CHECK" name="FONT_ITALIC" value="false"/>
+    <elementParameter xmi:id="_JwsSCpp6EeGKeKtq2xYg2g" field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
+  </note>
+  <note xmi:id="_JwsSC5p6EeGKeKtq2xYg2g" opaque="true" posX="64" posY="64" sizeHeight="64" sizeWidth="545" text="This route implements a DemoService from our Demo Scenario&#xA;that run on port 8050 and forward requests to port 8040.">
+    <elementParameter xmi:id="_JwsSDJp6EeGKeKtq2xYg2g" field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
+    <elementParameter xmi:id="_JwsSDZp6EeGKeKtq2xYg2g" field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
+    <elementParameter xmi:id="_JwsSDpp6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_LEFT" value="false"/>
+    <elementParameter xmi:id="_JwsSD5p6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_RIGHT" value="false"/>
+    <elementParameter xmi:id="_JwsSEJp6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_CENTER" value="true"/>
+    <elementParameter xmi:id="_JwsSEZp6EeGKeKtq2xYg2g" field="RADIO" name="NOTELABEL_CENTER" value="true"/>
+    <elementParameter xmi:id="_JwsSEpp6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_TOP" value="false"/>
+    <elementParameter xmi:id="_JwsSE5p6EeGKeKtq2xYg2g" field="RADIO" name="NOTETXT_BOTTOM" value="false"/>
+    <elementParameter xmi:id="_JwsSFJp6EeGKeKtq2xYg2g" field="TEXT" name="NOTE_FONT" value="Time New Roman"/>
+    <elementParameter xmi:id="_JwsSFZp6EeGKeKtq2xYg2g" field="TEXT" name="FONT_SIZE" value="11"/>
+    <elementParameter xmi:id="_JwsSFpp6EeGKeKtq2xYg2g" field="CHECK" name="FONT_BOLD" value="false"/>
+    <elementParameter xmi:id="_JwsSF5p6EeGKeKtq2xYg2g" field="CHECK" name="FONT_ITALIC" value="false"/>
+    <elementParameter xmi:id="_JwsSGJp6EeGKeKtq2xYg2g" field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
+  </note>
+  <subjob xmi:id="_JwsSGZp6EeGKeKtq2xYg2g">
+    <elementParameter xmi:id="_JwsSGpp6EeGKeKtq2xYg2g" field="TEXT" name="UNIQUE_NAME" value="cCXF_1"/>
+    <elementParameter xmi:id="_JwsSG5p6EeGKeKtq2xYg2g" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_JwsSHJp6EeGKeKtq2xYg2g" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_JwsSHZp6EeGKeKtq2xYg2g">
+    <elementParameter xmi:id="_JwsSHpp6EeGKeKtq2xYg2g" field="TEXT" name="UNIQUE_NAME" value="cCXF_2"/>
+    <elementParameter xmi:id="_JwsSH5p6EeGKeKtq2xYg2g" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_JwsSIJp6EeGKeKtq2xYg2g" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_JwsSIZp6EeGKeKtq2xYg2g">
+    <elementParameter xmi:id="_JwsSIpp6EeGKeKtq2xYg2g" field="TEXT" name="UNIQUE_NAME" value="cLog_1"/>
+    <elementParameter xmi:id="_JwsSI5p6EeGKeKtq2xYg2g" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_JwsSJJp6EeGKeKtq2xYg2g" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

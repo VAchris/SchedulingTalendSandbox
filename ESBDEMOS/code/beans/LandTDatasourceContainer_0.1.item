@@ -1,0 +1,20 @@
+package beans;
+
+import org.apache.camel.CamelContext;
+
+public class LandTDatasourceContainer extends TalendContainer {
+
+	private static final String[] springContextFiles = {
+	"file:c:/Users/EdwardOst/workspace/indigo/demo/landt/src/main/resources/META-INF/spring/container.xml",
+	"file:c:/Users/EdwardOst/workspace/indigo/demo/landt/src/main/resources/META-INF/spring/beans.xml",
+	"file:c:/Users/EdwardOst/workspace/indigo/demo/landt/src/main/resources/META-INF/spring/integration.xml"
+	}; 
+ 
+	private static final String springCamelContextName = "springCamelContext";
+	
+	public LandTDatasourceContainer(CamelContext camelContext) {
+		super(camelContext,springContextFiles, springCamelContextName);
+		System.out.println("LandT Spring Context");
+	}
+
+}

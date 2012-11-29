@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="Employee"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="getEmployeeRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="empId"
+							type="xsd:string" minOccurs="1" maxOccurs="1">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="getEmployeeResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="employee"
+							type="tns:employeeType" minOccurs="0" maxOccurs="1">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		
+			<xsd:complexType name="employeeType">
+				<xsd:sequence>
+					<xsd:element name="id" type="xsd:string"></xsd:element>
+					<xsd:element name="name" type="xsd:string"></xsd:element>
+					<xsd:element name="address1" type="xsd:string"></xsd:element>
+					<xsd:element name="address2" type="xsd:string"></xsd:element>
+					<xsd:element name="city" type="xsd:string"></xsd:element>
+					<xsd:element name="postalCode" type="xsd:string"></xsd:element>
+					<xsd:element name="country" type="xsd:string"></xsd:element>
+					<xsd:element name="nationality" type="xsd:string"></xsd:element>
+					<xsd:element name="dateOfBirth" type="xsd:string"></xsd:element>
+					<xsd:element name="type" type="xsd:string"></xsd:element>
+					<xsd:element name="email" type="xsd:string"></xsd:element>
+					<xsd:element name="phone" type="xsd:string"></xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:element name="getEmployeeFault">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="fault"
+							type="tns:faultType" minOccurs="0" maxOccurs="1">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		
+			<xsd:complexType name="faultType">
+				<xsd:sequence>
+					<xsd:element name="id" type="xsd:string"></xsd:element>
+					<xsd:element name="type" type="xsd:string"></xsd:element>
+					<xsd:element name="message" type="xsd:string"></xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="getEmployeeRequest">
+		<wsdl:part name="parameters" element="tns:getEmployeeRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getEmployeeResponse">
+		<wsdl:part name="parameters" element="tns:getEmployeeResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:message name="getEmployeeFault">
+		<wsdl:part name="parameters" element="tns:getEmployeeFault"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:portType name="EmployeePortType">
+		<wsdl:operation name="getEmployee">
+			<wsdl:input message="tns:getEmployeeRequest"></wsdl:input>
+			<wsdl:output message="tns:getEmployeeResponse"></wsdl:output>
+            <wsdl:fault name="fault" message="tns:getEmployeeFault"></wsdl:fault>
+        </wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="EmployeeBinding" type="tns:EmployeePortType">
+
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="getEmployee">
+
+			<soap:operation
+				soapAction="http://www.talend.org/service/getEmployee" />
+			<wsdl:input>
+
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="fault">
+
+				<soap:fault use="literal" name="fault" />
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="Employee">
+		<wsdl:port name="EmployeePort" binding="tns:EmployeeBinding">
+			<soap:address location="http://localhost:8090/services/Employee" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

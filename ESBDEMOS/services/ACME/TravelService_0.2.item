@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_2AWmBAieEeKW3I8qhlT59A" WSDLPath="" servicePort="_S6OioPzeEeGrwZp8erRaJA">
+    <additionalInfo xmi:id="_2AWmBQieEeKW3I8qhlT59A" key="groupId" value="org.example"/>
+    <additionalInfo xmi:id="_2AWmBgieEeKW3I8qhlT59A" key="artifactId" value="TravelService"/>
+    <additionalInfo xmi:id="_2AWmBwieEeKW3I8qhlT59A" key="version" value="0.2.0"/>
+    <additionalInfo xmi:id="_2AWmCAieEeKW3I8qhlT59A" key="UseSAM" value="true"/>
+    <additionalInfo xmi:id="_2AWmCQieEeKW3I8qhlT59A" key="UseSL" value="true"/>
+    <additionalInfo xmi:id="_2AWmCgieEeKW3I8qhlT59A" key="Security.Basic" value="false"/>
+    <additionalInfo xmi:id="_2AWmCwieEeKW3I8qhlT59A" key="Security.SAML" value="false"/>
+  </Services:ServiceConnection>
+  <Services:ServicePort xmi:id="_S6OioPzeEeGrwZp8erRaJA" name="TravelServicePortType" id="_Qftk0PzaEeGrwZp8erRaJA" serviceOperation="_S6OiofzeEeGrwZp8erRaJA _S6OiovzeEeGrwZp8erRaJA _S6Oio_zeEeGrwZp8erRaJA"/>
+  <Services:ServiceOperation xmi:id="_S6OiofzeEeGrwZp8erRaJA" label="estimateTripCost-estimateTripCost" name="estimateTripCost" id="_4IJHkPzaEeGrwZp8erRaJA" referenceJobId="_VNPuIPzeEeGrwZp8erRaJA"/>
+  <Services:ServiceOperation xmi:id="_S6OiovzeEeGrwZp8erRaJA" label="evaluateTripRisk-evaluateTripRisk" name="evaluateTripRisk" id="_4IJHkfzaEeGrwZp8erRaJA" referenceJobId="_-q0ZQCmvEeKL_YW4Om3WFw"/>
+  <Services:ServiceOperation xmi:id="_S6Oio_zeEeGrwZp8erRaJA" label="getWeatherReport" name="getWeatherReport" id="_4IJHkvzaEeGrwZp8erRaJA"/>
+</xmi:XMI>

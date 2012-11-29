@@ -1,0 +1,16 @@
+package beans;
+
+public class PrintMessage {
+
+	
+	public PrintMessage() {
+		
+	}
+    public void printMessage(String message) {
+
+    	if (message == null) {
+            message = "NULL payload";
+        }
+        System.out.println("PrintMessage: " + message + " !");
+    }
+}

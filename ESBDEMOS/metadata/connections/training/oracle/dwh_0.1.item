@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_bGR98_5mEeG5q5QF5Lsvgg" name="dwh" label="dwh" dataPackage="_bGR9_P5mEeG5q5QF5Lsvgg" DatabaseType="Oracle with SID" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@localhost:1521:xe" dbVersionString="ORACLE_11" Port="1521" Username="dwh" Password="9cvYc34jc2g=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="xe" SqlSynthax="SQL Syntax" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="DWH">
+    <taggedValue xmi:id="_bGR99P5mEeG5q5QF5Lsvgg" tag="Using URL" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+    <taggedValue xmi:id="_bGR99f5mEeG5q5QF5Lsvgg" tag="Status" value=""/>
+    <taggedValue xmi:id="_bGR99v5mEeG5q5QF5Lsvgg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_bGR99_5mEeG5q5QF5Lsvgg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_bGR9-P5mEeG5q5QF5Lsvgg" tag="Description" value=""/>
+    <taggedValue xmi:id="_bGR9-f5mEeG5q5QF5Lsvgg" tag="Author" value=""/>
+    <taggedValue xmi:id="_bGR9-v5mEeG5q5QF5Lsvgg" tag="otherParameter" value=""/>
+    <taggedValue xmi:id="_bGR9-_5mEeG5q5QF5Lsvgg" tag="DB IdentifierQuoteString" value="&quot;"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_bGR9_P5mEeG5q5QF5Lsvgg" name="DWH" dataManager="_bGR98_5mEeG5q5QF5Lsvgg">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_bGR9_f5mEeG5q5QF5Lsvgg" name="CUSTOMERS" id="_xeYzELiDEeG7wfDjoZRtfg" label="CUSTOMERS" tableType="TABLE">
+      <taggedValue xmi:id="_bGR9_v5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_bGR9__5mEeG5q5QF5Lsvgg" name="SYSID" label="SYSID" length="22" sourceType="DEC" talendType="id_BigDecimal" key="true" nullable="false">
+        <taggedValue xmi:id="_bGR-AP5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_bGR-Af5mEeG5q5QF5Lsvgg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_bGR-Av5mEeG5q5QF5Lsvgg" name="NUMBER" numericPrecisionRadix="10" javaDataType="3"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_bGR-A_5mEeG5q5QF5Lsvgg" name="LASTNAME" label="LASTNAME" length="20" sourceType="VARCHAR2" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_bGR-BP5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_bGR-Bf5mEeG5q5QF5Lsvgg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_bGR-Bv5mEeG5q5QF5Lsvgg" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_bGR-B_5mEeG5q5QF5Lsvgg" name="FIRSTNAME" label="FIRSTNAME" length="20" sourceType="VARCHAR2" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_bGR-CP5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_bGR-Cf5mEeG5q5QF5Lsvgg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_bGR-Cv5mEeG5q5QF5Lsvgg" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_bGR-C_5mEeG5q5QF5Lsvgg" name="AGE" label="AGE" length="22" sourceType="DEC" talendType="id_BigDecimal">
+        <taggedValue xmi:id="_bGR-DP5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_bGR-Df5mEeG5q5QF5Lsvgg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_bGR-Dv5mEeG5q5QF5Lsvgg" name="NUMBER" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

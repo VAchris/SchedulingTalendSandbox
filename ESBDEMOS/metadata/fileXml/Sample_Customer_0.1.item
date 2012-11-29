@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:XmlFileConnection xmi:id="_NrOvIxEfEeKT_OvCFC8tAQ" dataPackage="_NrOvKhEfEeKT_OvCFC8tAQ" XmlFilePath="/home/nfrancisco/Talend/talend_files_0.1/in/XML/sample.xml" Encoding="ISO-8859-1">
+    <schema xmi:id="_NrOvJBEfEeKT_OvCFC8tAQ" LimitBoucle="50" AbsoluteXPathQuery="/root/customers">
+      <schemaTargets xmi:id="_NrOvJREfEeKT_OvCFC8tAQ" RelativeXPathQuery="pays/@name" TagName="name"/>
+      <schemaTargets xmi:id="_NrOvJhEfEeKT_OvCFC8tAQ" RelativeXPathQuery="pays/state/@name" TagName="country_name"/>
+      <schemaTargets xmi:id="_NrOvJxEfEeKT_OvCFC8tAQ" RelativeXPathQuery="pays/state/@capital" TagName="capital"/>
+      <schemaTargets xmi:id="_NrOvKBEfEeKT_OvCFC8tAQ" RelativeXPathQuery="pays/state/customer/@firstname" TagName="firstname"/>
+      <schemaTargets xmi:id="_NrOvKREfEeKT_OvCFC8tAQ" RelativeXPathQuery="pays/state/customer/@lastname" TagName="lastname"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <TalendMetadata:GenericPackage xmi:id="_NrOvKhEfEeKT_OvCFC8tAQ" dataManager="_NrOvIxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NrOvKxEfEeKT_OvCFC8tAQ" id="_ABxnQB1DEd-XVfHSJU420w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NrOvLBEfEeKT_OvCFC8tAQ" name="" label="name" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NrOvLREfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NrOvLhEfEeKT_OvCFC8tAQ" name="" label="country_name" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NrOvLxEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NrOvMBEfEeKT_OvCFC8tAQ" name="" label="capital" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NrOvMREfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NrOvMhEfEeKT_OvCFC8tAQ" name="" label="firstname" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NrOvMxEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NrOvNBEfEeKT_OvCFC8tAQ" name="" label="lastname" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NrOvNREfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

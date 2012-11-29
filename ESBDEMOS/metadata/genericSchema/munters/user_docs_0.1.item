@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ECGMcCfuEeKI9-QAH8tGzg" comment="connectionComment" label="connectionLabel" dataPackage="_ECGMcSfuEeKI9-QAH8tGzg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_ECGMcSfuEeKI9-QAH8tGzg" dataManager="_ECGMcCfuEeKI9-QAH8tGzg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ECGMcifuEeKI9-QAH8tGzg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ECGMcyfuEeKI9-QAH8tGzg" name="ID" id="117" label="ID" length="22" sourceType="" talendType="id_Long" key="true" nullable="false">
+        <initialValue xmi:id="_ECGMdCfuEeKI9-QAH8tGzg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ECGMdSfuEeKI9-QAH8tGzg" name="USERNAME" id="118" label="USERNAME" length="20" sourceType="VARCHAR2" talendType="id_String">
+        <initialValue xmi:id="_ECGMdifuEeKI9-QAH8tGzg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ECGMdyfuEeKI9-QAH8tGzg" name="DOC_URL" id="119" label="DOC_URL" length="52" sourceType="VARCHAR2" talendType="id_String">
+        <initialValue xmi:id="_ECGMeCfuEeKI9-QAH8tGzg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ECGMeSfuEeKI9-QAH8tGzg" name="DESCRIPTION" id="120" label="DESCRIPTION" length="50" sourceType="VARCHAR2" talendType="id_String">
+        <initialValue xmi:id="_ECGMeifuEeKI9-QAH8tGzg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ECGMeyfuEeKI9-QAH8tGzg" name="VALIDFROM" id="121" label="VALIDFROM" length="7" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ECGMfCfuEeKI9-QAH8tGzg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ECGMfSfuEeKI9-QAH8tGzg" name="VALIDTO" id="122" label="VALIDTO" length="7" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ECGMfifuEeKI9-QAH8tGzg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ECGMfyfuEeKI9-QAH8tGzg" name="RECEIVED" id="123" label="RECEIVED" length="1" sourceType="VARCHAR2" talendType="id_String">
+        <initialValue xmi:id="_ECGMgCfuEeKI9-QAH8tGzg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ECGMgSfuEeKI9-QAH8tGzg" name="USER1" id="124" label="USER1" length="250" sourceType="VARCHAR2" talendType="id_String">
+        <initialValue xmi:id="_ECGMgifuEeKI9-QAH8tGzg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ECGMgyfuEeKI9-QAH8tGzg" name="USER2" id="125" label="USER2" length="250" sourceType="VARCHAR2" talendType="id_String">
+        <initialValue xmi:id="_ECGMhCfuEeKI9-QAH8tGzg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

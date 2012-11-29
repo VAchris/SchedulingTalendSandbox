@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_zOAb0CzdEeKrhNoHLRx-aQ" WSDLPath="C:/work/Development/ACME/TravelRequest/Employee.wsdl" servicePort="_Wk8NYDIyEeKGbrn7hCGoYA">
+    <additionalInfo xmi:id="_IoxM4CzhEeKrhNoHLRx-aQ" key="UseSAM" value="true"/>
+    <additionalInfo xmi:id="_IoxM4SzhEeKrhNoHLRx-aQ" key="UseSL" value="true"/>
+    <additionalInfo xmi:id="_IoxM4izhEeKrhNoHLRx-aQ" key="Security.Basic" value="false"/>
+    <additionalInfo xmi:id="_IoxM4yzhEeKrhNoHLRx-aQ" key="Security.SAML" value="false"/>
+    <additionalInfo xmi:id="_YxhZICzhEeKrhNoHLRx-aQ" key="groupId" value="org.example"/>
+    <additionalInfo xmi:id="_YxhZISzhEeKrhNoHLRx-aQ" key="artifactId" value="Employee"/>
+    <additionalInfo xmi:id="_YxhZIizhEeKrhNoHLRx-aQ" key="version" value="0.1.0"/>
+  </Services:ServiceConnection>
+  <Services:ServicePort xmi:id="_Wk8NYDIyEeKGbrn7hCGoYA" name="EmployeePortType" id="_zN-moCzdEeKrhNoHLRx-aQ" serviceOperation="_Wk8NYTIyEeKGbrn7hCGoYA"/>
+  <Services:ServiceOperation xmi:id="_Wk8NYTIyEeKGbrn7hCGoYA" label="getEmployee-getEmployee" name="getEmployee" id="_zN-moSzdEeKrhNoHLRx-aQ" referenceJobId="_Nk_hMCzfEeKrhNoHLRx-aQ"/>
+</xmi:XMI>

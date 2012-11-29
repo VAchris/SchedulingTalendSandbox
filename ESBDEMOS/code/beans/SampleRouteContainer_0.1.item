@@ -1,0 +1,19 @@
+package beans;
+
+import org.apache.camel.CamelContext;
+
+public class SampleRouteContainer extends TalendContainer {
+
+	private static final String[] springContextFiles = {
+	"file:c:/Users/EdwardOst/workspace/indigo/sampleroute/src/main/resources/META-INF/spring/container.xml",
+	"file:c:/Users/EdwardOst/workspace/indigo/sampleroute/src/main/resources/META-INF/spring/beans.xml",
+	"file:c:/Users/EdwardOst/workspace/indigo/sampleroute/src/main/resources/META-INF/spring/integration.xml"
+	}; 
+ 
+	private static final String springCamelContextName = "springCamelContext";
+	
+	public SampleRouteContainer(CamelContext camelContext) {
+		super(camelContext,springContextFiles, springCamelContextName);
+	}
+
+}

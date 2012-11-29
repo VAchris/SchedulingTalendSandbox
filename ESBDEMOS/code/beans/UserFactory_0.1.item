@@ -1,0 +1,29 @@
+package beans;
+
+
+public class UserFactory {
+
+	private String domain;
+
+    public UserFactory(String domain) {
+    	this.domain = domain;
+    }
+
+	public String getDomain() {
+		return domain;
+	}
+
+	public User createUser(String userId, String password) {
+		return new User(domain, userId, password);
+	}
+
+	
+	public User createUserFromString(String userInfo) {
+		int commaIndex = userInfo.indexOf(",");
+		String userId = userInfo.substring(0, commaIndex);
+		String password = userInfo.substring(commaIndex  + 1);
+		return this.createUser(userId, password);
+	}
+	
+	
+}

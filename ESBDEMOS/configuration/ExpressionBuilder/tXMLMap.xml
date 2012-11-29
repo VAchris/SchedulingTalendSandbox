@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore">
+  <expression:EMFExpression id=" resultRow.addressSysid" expression="resultRow.addressSysid"/>
+  <expression:EMFExpression id="resultRow.addressSysid " expression="Integer.toString(resultRow.addressSysid)"/>
+  <expression:EMFExpression id="resultRow.customerId" expression="resultRow.customerId  /* this would really be translated to a restful url at the final stage */"/>
+  <expression:EMFExpression id="responseRow.addressSysid" expression="Integer.toBinaryString(responseRow.addressSysid)"/>
+</xmi:XMI>

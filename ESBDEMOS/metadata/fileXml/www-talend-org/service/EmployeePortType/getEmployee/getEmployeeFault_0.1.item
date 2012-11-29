@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_Gm_uEDKiEeKXEo6WU6ekgg" name="repository.metadataFileXml" dataPackage="_Gm_uFzKiEeKXEo6WU6ekgg" XmlFilePath="tempXSDFile0.XSD.zip" inputModel="false" fileContent="504B0304140008080800B39473410000000000000000000000001000000074656D7058534446696C65302E585344BD55CB6EC23010BC57EA3F44FE0002F486480F7D20556A8BD4F6D0ABEB2C6029B18377D3C0DFD73609A5400A720B3944CAEECCEC23EBF57081E900C50C721E2DF24CE1C01A1236232A06715C5555A7BAEA68338DFBDD6E2F7E7F7A7CF558568351F3628D5EC960C7BA9CDDD32A4CB3D87DC50D8514FED0279E814A3D18C17C4A016BA8231F5667112732F2A324186993DFC184971925AC54F392677222216511649083A276007133057AE63960C1051C4CF1FAF222B2CFD0F5AF168F946527CCCADCE745A697002F302F01A901AF09425B002CDE96056CB8D66E743425B67D2DF1202F1E5C01562C619E6EBBA1A62CDE968E5BB4578EDD9C56F63AD891F562A115C2A90ACEA51A0B511A3B415DF65DBE8FDD74C0CED7A0B1B97827ECC306742B191F78BB092D55EE69A93CEA7FEEF2DC3B8CC9D3D40062EF4FEC7E185B485A86310B8DF66CDEEA34B06AA14B452630B8E224B5B20B2434FB94138C2737D2D02C4CC071C2987693CA2CB0E733AD0E45DD7BC45A8FD7AF2B65E476F539F789BF1C369789379C7D937C473DFF1A099F2B7B7B229FFEDB78D4407FF3DBCF2F504B07088BB3BD929D010000AD080000504B01021400140008080800B39473418BB3BD929D010000AD08000010000000000000000000000000000000000074656D7058534446696C65302E585344504B050600000000010001003E000000DB0100000000">
+    <root xmi:id="_Gm_uETKiEeKXEo6WU6ekgg" XMLPath="/tns:getEmployeeFault" Attribute="main" Order="1" Type="id_String"/>
+    <root xmi:id="_Gm_uEjKiEeKXEo6WU6ekgg" XMLPath="tns" DefaultValue="http://www.talend.org/service/" Attribute="ns" Order="2" Type="id_String"/>
+    <loop xmi:id="_Gm_uEzKiEeKXEo6WU6ekgg" XMLPath="/tns:getEmployeeFault/fault" Attribute="main" Order="3" Type="id_String"/>
+    <loop xmi:id="_Gm_uFDKiEeKXEo6WU6ekgg" XMLPath="/tns:getEmployeeFault/fault/id" RelatedColumn="id" Attribute="branch" Order="4" Type="id_String"/>
+    <loop xmi:id="_Gm_uFTKiEeKXEo6WU6ekgg" XMLPath="/tns:getEmployeeFault/fault/type" RelatedColumn="type" Attribute="branch" Order="5" Type="id_String"/>
+    <loop xmi:id="_Gm_uFjKiEeKXEo6WU6ekgg" XMLPath="/tns:getEmployeeFault/fault/message" RelatedColumn="message" Attribute="branch" Order="6" Type="id_String"/>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Gm_uFzKiEeKXEo6WU6ekgg" name="repository.metadataFileXml" dataManager="_Gm_uEDKiEeKXEo6WU6ekgg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Gm_uGDKiEeKXEo6WU6ekgg" id="_Gm-f8DKiEeKXEo6WU6ekgg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gm_uGTKiEeKXEo6WU6ekgg" label="id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gm_uGjKiEeKXEo6WU6ekgg" label="type" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gm_uGzKiEeKXEo6WU6ekgg" label="message" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,33 @@
+package beans;
+
+import org.apache.camel.Processor;
+import org.apache.camel.Exchange;
+import org.apache.camel.Message;
+
+public class EverbankResponseBuilder implements Processor {
+
+	public void process (Exchange exchange) {
+		
+		Message messageIn = exchange.getIn();
+		if (messageIn == null) {
+			System.out.println("##### NULL messageIn ");
+			return;
+		}
+		
+		String saveToHeader = exchange.getIn().getHeader("saveToHeader", String.class);
+		System.out.println("##### saveToHeader = " + saveToHeader);
+		Object oldAccumulator = exchange.getIn().getHeader(saveToHeader);
+		if (oldAccumulator == null) {
+			System.out.println("##### Accumulator is NULL");
+			return;
+			}
+		java.util.List<String> accumulator = (java.util.List<String>) oldAccumulator;
+		StringBuilder sb = new StringBuilder();
+		for (String result : accumulator)
+			sb.append(result);
+		System.out.println("******** RESULT *************");
+		System.out.println(sb.toString());
+		System.out.println("*********************");
+		exchange.getIn().setBody(sb.toString());
+	}
+}

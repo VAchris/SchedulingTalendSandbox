@@ -1,0 +1,22 @@
+package beans;
+
+import org.apache.camel.Exchange;
+
+public class EverbankUtil {
+
+    public static void dianosticMessage(Exchange exchange, String prompt) {
+    	System.out.println("----- " + prompt + " -----");
+    	if (exchange.getIn() == null)
+    		printMsg(prompt, "Null IN message");
+    	else {
+        	printMsg(prompt, "saveToHeader=" + exchange.getIn().getHeader("saveToHeader", String.class));
+        	printMsg(prompt, "correlationHeader=" + exchange.getIn().getHeader("correlationHeader", String.class));
+        	printMsg(prompt, "rfpAccumulatorHeader=" + exchange.getIn().getHeader("rfpAccumulator", String.class));
+        	printMsg(prompt, "body=" + exchange.getIn().getBody(String.class));
+    	}
+    }
+    
+    private static void printMsg(String prompt, String msg) {
+    	System.out.println("--- " + prompt + " --- " + msg);
+    }
+}

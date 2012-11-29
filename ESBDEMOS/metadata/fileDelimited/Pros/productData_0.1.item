@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_NIenYxEfEeKT_OvCFC8tAQ" name="repository.metadataFileDelimited" dataPackage="_NIenZBEfEeKT_OvCFC8tAQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/EdwardOst/Documents/Channels/Pros/POC/PerformanceTestInfo/ProductData.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" LimitValue="0" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_NIenZBEfEeKT_OvCFC8tAQ" name="repository.metadataFileDelimited" dataManager="_NIenYxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NIenZREfEeKT_OvCFC8tAQ" id="_fYxKUEN7EeGwmolzzFLbxg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenZhEfEeKT_OvCFC8tAQ" label="BILL_TO_ID" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenZxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenaBEfEeKT_OvCFC8tAQ" label="CUSTOMER_ID" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenaREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenahEfEeKT_OvCFC8tAQ" label="CUSTOMER_TIER_ID" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenaxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenbBEfEeKT_OvCFC8tAQ" label="CUSTOMER_CLASS" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenbREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenbhEfEeKT_OvCFC8tAQ" label="CUSTOMER_SUBCLASS" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenbxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIencBEfEeKT_OvCFC8tAQ" label="PROS_DATALOAD_TIME" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIencREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenchEfEeKT_OvCFC8tAQ" label="ATT_BILL_TO_STATE" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIencxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIendBEfEeKT_OvCFC8tAQ" label="ATT_CUSTOMER_CLASS" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIendREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIendhEfEeKT_OvCFC8tAQ" label="ATT_CONTRACT_CUSTOMER" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIendxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIeneBEfEeKT_OvCFC8tAQ" label="ATT_CUSTOMER_REVENUE" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIeneREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenehEfEeKT_OvCFC8tAQ" label="ATT_CUSTOMER_TIER" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenexEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenfBEfEeKT_OvCFC8tAQ" label="CUSTOMER_SEGMENT" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenfREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenfhEfEeKT_OvCFC8tAQ" label="PRICING_AREA_ID" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenfxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIengBEfEeKT_OvCFC8tAQ" label="PARTNER_ROLE" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIengREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenghEfEeKT_OvCFC8tAQ" label="PARTNER_CUSTOMER_ID" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIengxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenhBEfEeKT_OvCFC8tAQ" label="DEFAULT_INDICATOR" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenhREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenhhEfEeKT_OvCFC8tAQ" label="VKORG" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenhxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIeniBEfEeKT_OvCFC8tAQ" label="REQUEST" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIeniREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenihEfEeKT_OvCFC8tAQ" label="CURRENCY_CODE" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenixEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NIenjBEfEeKT_OvCFC8tAQ" label="Column19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NIenjREfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

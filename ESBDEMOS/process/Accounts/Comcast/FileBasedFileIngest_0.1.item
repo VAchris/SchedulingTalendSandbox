@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="mysql-connector-java-5.1.0-bin.jar"/>
+    <routinesParameter id="_Rd4oQGxWEeGRo5lusxxMbg" name="DataOperation"/>
+    <routinesParameter id="_ReRp0GxWEeGRo5lusxxMbg" name="Mathematical"/>
+    <routinesParameter id="_ReVUMGxWEeGRo5lusxxMbg" name="Numeric"/>
+    <routinesParameter id="_RefFMGxWEeGRo5lusxxMbg" name="Relational"/>
+    <routinesParameter id="_E1YDQGyQEeGvt8UHet3sYw" name="SQLike"/>
+    <routinesParameter id="_ReoPIGxWEeGRo5lusxxMbg" name="StringHandling"/>
+    <routinesParameter id="_Rer5gGxWEeGRo5lusxxMbg" name="TalendDataGenerator"/>
+    <routinesParameter id="_Revj4GxWEeGRo5lusxxMbg" name="TalendDate"/>
+    <routinesParameter id="_Re0cYGxWEeGRo5lusxxMbg" name="TalendString"/>
+  </parameters>
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputXML_1"/>
+    <elementParameter field="CHECK" name="START" value="true"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/temp/ADI.XML&quot;"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="CableLabs1_1"/>
+      <elementValue elementRef="QUERY" value="&quot;.&quot;"/>
+      <elementValue elementRef="NODECHECK" value="true"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_DTD" value="false"/>
+    <elementParameter field="FILE" name="TMP_FILENAME" value="&quot;C:/Working/temp.xml&quot;"/>
+    <elementParameter field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="FIELD_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata connector="FLOW" name="tFileInputXML_1">
+      <column comment="" key="false" name="CableLabs1_1" nullable="true" pattern="" sourceType="" type="id_Document"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" name="CableLabs1_1" nullable="true" pattern="" sourceType="" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tXMLMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata connector="FLOW" label="FileBasedIngestOut" name="FileBasedIngestOut">
+      <column comment="" key="false" name="Canonical" nullable="true" pattern="" sourceType="" type="id_Document"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees name="row1" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+        <nodes name="CableLabs1_1" expression="" type="id_Document" xpath="row1/CableLabs1_1">
+          <children name="ADI" type="id_String" xpath="row1.CableLabs1_1:/ADI" main="true">
+            <children name="Metadata" type="id_String" xpath="row1.CableLabs1_1:/ADI/Metadata" main="true">
+              <children name="AMS" type="id_String" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS">
+                <children name="Asset_Class" type="id_String" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Asset_Class" nodeType="ATTRIBUT"/>
+                <children name="Asset_ID" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.0" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Asset_ID" nodeType="ATTRIBUT"/>
+                <children name="Asset_Name" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.1" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Asset_Name" nodeType="ATTRIBUT"/>
+                <children name="Creation_Date" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.2" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Creation_Date" nodeType="ATTRIBUT"/>
+                <children name="Description" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.3" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Description" nodeType="ATTRIBUT"/>
+                <children name="Product" type="id_String" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Product" nodeType="ATTRIBUT"/>
+                <children name="Provider" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.4" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Provider" nodeType="ATTRIBUT"/>
+                <children name="Provider_ID" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.5" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Provider_ID" nodeType="ATTRIBUT"/>
+                <children name="Verb" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.6" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Verb" nodeType="ATTRIBUT"/>
+                <children name="Version_Major" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.7" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Version_Major" nodeType="ATTRIBUT"/>
+                <children name="Version_Minor" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.8" xpath="row1.CableLabs1_1:/ADI/Metadata/AMS/@Version_Minor" nodeType="ATTRIBUT"/>
+              </children>
+              <children name="App_Data" type="id_String" xpath="row1.CableLabs1_1:/ADI/Metadata/App_Data" loop="true" main="true">
+                <children name="App" type="id_String" xpath="row1.CableLabs1_1:/ADI/Metadata/App_Data/@App" nodeType="ATTRIBUT"/>
+                <children name="Name" type="id_String" xpath="row1.CableLabs1_1:/ADI/Metadata/App_Data/@Name" nodeType="ATTRIBUT"/>
+                <children name="Value" type="id_String" xpath="row1.CableLabs1_1:/ADI/Metadata/App_Data/@Value" nodeType="ATTRIBUT"/>
+              </children>
+            </children>
+            <children name="Asset" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset">
+              <children name="Metadata" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata">
+                <children name="AMS" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS">
+                  <children name="Asset_Class" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Asset_Class" nodeType="ATTRIBUT"/>
+                  <children name="Asset_ID" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Asset_ID" nodeType="ATTRIBUT"/>
+                  <children name="Asset_Name" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Asset_Name" nodeType="ATTRIBUT"/>
+                  <children name="Creation_Date" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Creation_Date" nodeType="ATTRIBUT"/>
+                  <children name="Description" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Description" nodeType="ATTRIBUT"/>
+                  <children name="Product" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Product" nodeType="ATTRIBUT"/>
+                  <children name="Provider" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Provider" nodeType="ATTRIBUT"/>
+                  <children name="Provider_ID" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Provider_ID" nodeType="ATTRIBUT"/>
+                  <children name="Verb" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Verb" nodeType="ATTRIBUT"/>
+                  <children name="Version_Major" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Version_Major" nodeType="ATTRIBUT"/>
+                  <children name="Version_Minor" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/AMS/@Version_Minor" nodeType="ATTRIBUT"/>
+                </children>
+                <children name="App_Data" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/App_Data">
+                  <children name="App" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/App_Data/@App" nodeType="ATTRIBUT"/>
+                  <children name="Name" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/App_Data/@Name" nodeType="ATTRIBUT"/>
+                  <children name="Value" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Metadata/App_Data/@Value" nodeType="ATTRIBUT"/>
+                </children>
+              </children>
+              <children name="Asset" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Asset"/>
+              <children name="Content" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Content">
+                <children name="Value" type="id_String" xpath="row1.CableLabs1_1:/ADI/Asset/Content/@Value" nodeType="ATTRIBUT"/>
+              </children>
+            </children>
+          </children>
+        </nodes>
+      </inputTrees>
+      <outputTrees name="FileBasedIngestOut">
+        <nodes name="Canonical" expression="" type="id_Document" xpath="FileBasedIngestOut/Canonical" pattern="">
+          <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Asset" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset" main="true">
+            <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/xmlns:asset" nodeType="NAME_SPACE" defaultValue="http://www.comcast.com/FileBasedIngest/AssetType/1.0"/>
+            <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Package" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package" main="true">
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetID" expression="[row1.CableLabs1_1:/ADI/Metadata/AMS/@Asset_ID]" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.0" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:AssetID"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetName" expression="[row1.CableLabs1_1:/ADI/Metadata/AMS/@Asset_Name]" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.1" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:AssetName"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:CreationDate" expression="[row1.CableLabs1_1:/ADI/Metadata/AMS/@Creation_Date]" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.2" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:CreationDate"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Description" expression="[row1.CableLabs1_1:/ADI/Metadata/AMS/@Description]" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.3" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Description"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MetadataSpecVersion" expression=" [row1.CableLabs1_1:/ADI/Metadata/App_Data[@Name='Metadata_Spec_Version']/@Value] " type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:MetadataSpecVersion"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Provider" expression="[row1.CableLabs1_1:/ADI/Metadata/AMS/@Provider]" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.4" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Provider"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ProviderContentTier" expression="" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:ProviderContentTier" loop="true" main="true"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ProviderID" expression="[row1.CableLabs1_1:/ADI/Metadata/AMS/@Provider_ID]" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.5" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:ProviderID"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Product" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Product"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:VersionMajor" expression="[row1.CableLabs1_1:/ADI/Metadata/AMS/@Version_Major]" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.7" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:VersionMajor"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:VersionMinor" expression="[row1.CableLabs1_1:/ADI/Metadata/AMS/@Version_Minor]" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.8" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:VersionMinor"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Verb" expression="[row1.CableLabs1_1:/ADI/Metadata/AMS/@Verb]" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.6" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Verb"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Title" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title">
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ActorsDisplay" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ActorsDisplay"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ActorList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ActorList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Actor" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ActorList/asset:Actor">
+                    <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:FirstName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ActorList/asset:Actor/asset:FirstName"/>
+                    <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:LastName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ActorList/asset:Actor/asset:LastName"/>
+                  </children>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AdvisoryList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:AdvisoryList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Advisory" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:AdvisoryList/asset:Advisory"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetFormat" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:AssetFormat"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetID" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:AssetID"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:AssetName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Audience" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:Audience"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:BillingId" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:BillingId"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:BoxOffice" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:BoxOffice"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:CategoryList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:CategoryList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Category" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:CategoryList/asset:Category"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ClosedCaptioning" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ClosedCaptioning"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ChapterList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ChapterList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Chapter" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ChapterList/asset:Chapter"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContractName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ContractName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:CountryOfOrigin" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:CountryOfOrigin"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Description" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:Description"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DirectorList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DirectorList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Director" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DirectorList/asset:Director">
+                    <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:FirstName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DirectorList/asset:Director/asset:FirstName"/>
+                    <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:LastName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DirectorList/asset:Director/asset:LastName"/>
+                  </children>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DisplayAsLastChanceDays" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DisplayAsLastChanceDays"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DisplayAsNewDays" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DisplayAsNewDays"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DisplayRunTime" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DisplayRunTime"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DistributorRoyaltyPercent" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DistributorRoyaltyPercent"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DistributorRoyaltyMinimum" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DistributorRoyaltyMinimum"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DistributorRoyaltyFlatRate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DistributorRoyaltyFlatRate"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DistributorName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:DistributorName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:EpisodeName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:EpisodeName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:EpisodeID" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:EpisodeID"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:GenreList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:GenreList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Genre" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:GenreList/asset:Genre"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:HomeVideoWindow" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:HomeVideoWindow"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ISAN" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ISAN"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:LicensingWindow" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:LicensingWindow">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:StartDate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:LicensingWindow/asset:StartDate"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:EndDate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:LicensingWindow/asset:EndDate"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:LocationClass" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:LocationClass"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MaximumViewingLength" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MaximumViewingLength"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCAssociateList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCAssociateList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCAssociate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCAssociateList/asset:MCAssociate"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCAttract" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCAttract"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCBefore" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCBefore"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCCoreGenre" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCCoreGenre"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCDeleteDate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCDeleteDate"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCInventory" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCInventory"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCLink" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCLink"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCParamList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCParamList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCParam" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCParamList/asset:MCParam"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCRepelList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCRepelList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCRepel" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCRepelList/asset:MCRepel"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MCVCRCommandsAllowed" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MCVCRCommandsAllowed"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MSORating" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:MSORating"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:PMGDestination" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:PMGDestination"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:PreviewPeriod" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:PreviewPeriod"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ProgrammerCallLetters" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ProgrammerCallLetters"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ProducerList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ProducerList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Producer" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ProducerList/asset:Producer">
+                    <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:FirstName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ProducerList/asset:Producer/asset:FirstName"/>
+                    <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:LastName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ProducerList/asset:Producer/asset:LastName"/>
+                  </children>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:PropagationPriority" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:PropagationPriority"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ProviderQualityAssuranceContact" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ProviderQualityAssuranceContact"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Rating" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:Rating"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:RecordingArtist" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:RecordingArtist"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:RunTime" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:RunTime"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SeasonFinale" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SeasonFinale"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SeasonPremiere" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SeasonPremiere"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ShowType" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:ShowType"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SongTitle" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SongTitle"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SubscriberViewLimitList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SubscriberViewLimitList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SubscriberViewLimit" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SubscriberViewLimitList/asset:SubscriberViewLimit">
+                    <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:StartDate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SubscriberViewLimitList/asset:SubscriberViewLimit/asset:StartDate"/>
+                    <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:EndDate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SubscriberViewLimitList/asset:SubscriberViewLimit/asset:EndDate"/>
+                    <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MaximumViews" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SubscriberViewLimitList/asset:SubscriberViewLimit/asset:MaximumViews"/>
+                  </children>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SuggestedPrice" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SuggestedPrice"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SummaryLong" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SummaryLong"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SummaryMedium" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SummaryMedium"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SummaryShort" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:SummaryShort"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Studio" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:Studio"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:StudioRoyaltyPercent" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:StudioRoyaltyPercent"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:StudioRoyaltyMinimum" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:StudioRoyaltyMinimum"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:StudioRoyaltyFlatRate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:StudioRoyaltyFlatRate"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:StudioName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:StudioName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:StudioCode" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:StudioCode"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Title" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:Title"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:TitleBrief" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:TitleBrief"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:TitleSortName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:TitleSortName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Verb" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:Verb"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:WriterDisplay" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:WriterDisplay"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Year" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Title/asset:Year"/>
+              </children>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Movie" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie">
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AnalogProtectionSystem" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:AnalogProtectionSystem"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AudioTypeList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:AudioTypeList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AudioType" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:AudioTypeList/asset:AudioType"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetID" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:AssetID"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:AssetName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AvailList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:AvailList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Avail" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:AvailList/asset:Avail"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:BitRate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:BitRate"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentCheckSum" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:ContentCheckSum"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentFileName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:ContentFileName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentFileSize" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:ContentFileSize"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:CGMS_A" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:CGMS_A"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:CopyProtection" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:CopyProtection"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:CopyProtectionVerbose" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:CopyProtectionVerbose"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ConstrainedImageTrigger" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:ConstrainedImageTrigger"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Description" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:Description"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DubbedLanguagesList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:DubbedLanguagesList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DubbedLanguages" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:DubbedLanguagesList/asset:DubbedLanguages"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:EncryptionModeIndicator" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:EncryptionModeIndicator"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Encryption" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:Encryption"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:EtfFlags" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:EtfFlags"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:HDContent" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:HDContent"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:LanguagesList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:LanguagesList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Languages" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:LanguagesList/asset:Languages"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ScreenFormat" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:ScreenFormat"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SubtitleLanguagesList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:SubtitleLanguagesList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SubtitleLanguages" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:SubtitleLanguagesList/asset:SubtitleLanguages"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:TrickModeRestrictionList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:TrickModeRestrictionList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:TrickModeRestriction" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:TrickModeRestrictionList/asset:TrickModeRestriction"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Verb" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:Verb"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ViewingCanBeResumed" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:ViewingCanBeResumed"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Resolution" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:Resolution"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:FrameRate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:FrameRate"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Codec" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Movie/asset:Codec"/>
+              </children>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Preview" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview">
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetID" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:AssetID"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:AssetName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AudioTypeList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:AudioTypeList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AudioType" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:AudioTypeList/asset:AudioType"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Audience" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:Audience"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AvailList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:AvailList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Avail" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:AvailList/asset:Avail"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:BitRate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:BitRate"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentCheckSum" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:ContentCheckSum"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentFileName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:ContentFileName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentFileSize" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:ContentFileSize"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Description" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:Description"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DubbedLanguagesList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:DubbedLanguagesList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:DubbedLanguages" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:DubbedLanguagesList/asset:DubbedLanguages"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:EtfFlags" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:EtfFlags"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:HDContent" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:HDContent"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:LanguagesList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:LanguagesList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Languages" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:LanguagesList/asset:Languages"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:MSORating" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:MSORating"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Rating" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:Rating"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:RunTime" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:RunTime"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ScreenFormat" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:ScreenFormat"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SubtitleLanguagesList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:SubtitleLanguagesList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:SubtitleLanguages" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:SubtitleLanguagesList/asset:SubtitleLanguages"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:TrickModeRestrictionList" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:TrickModeRestrictionList">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:TrickModeRestriction" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:TrickModeRestrictionList/asset:TrickModeRestriction"/>
+                </children>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Verb" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:Verb"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Resolution" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:Resolution"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:FrameRate" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:FrameRate"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Codec" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Preview/asset:Codec"/>
+              </children>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Poster" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Poster">
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetID" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Poster/asset:AssetID"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Poster/asset:AssetName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentFileName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Poster/asset:ContentFileName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentFileSize" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Poster/asset:ContentFileSize"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentCheckSum" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Poster/asset:ContentCheckSum"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Description" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Poster/asset:Description"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ImageAspectRatio" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Poster/asset:ImageAspectRatio"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Verb" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:Poster/asset:Verb"/>
+              </children>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:BoxCover" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:BoxCover">
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetID" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:BoxCover/asset:AssetID"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:AssetName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:BoxCover/asset:AssetName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentFileName" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:BoxCover/asset:ContentFileName"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentFileSize" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:BoxCover/asset:ContentFileSize"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ContentCheckSum" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:BoxCover/asset:ContentCheckSum"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Description" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:BoxCover/asset:Description"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:ImageAspectRatio" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:BoxCover/asset:ImageAspectRatio"/>
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="asset:Verb" type="id_String" xpath="FileBasedIngestOut.Canonical:/asset:Asset/asset:Package/asset:BoxCover/asset:Verb"/>
+              </children>
+            </children>
+          </children>
+        </nodes>
+      </outputTrees>
+      <varTables name="Var" minimized="true"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.1" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.0"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.2" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.3" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.4" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.3"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.6" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.5"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.7" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.7"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.8" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.11"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.9" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.9"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.10" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.10"/>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputXML" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputXML_1"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/temp/Canonical.xml&quot;"/>
+    <elementParameter field="TEXT" name="ROW_TAG" value="&quot;row&quot;"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="TABLE" name="ROOT_TAGS"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Canonical"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
+      <elementValue elementRef="LABEL" value="label"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_GROUPING" value="false"/>
+    <elementParameter field="TABLE" name="GROUP_BY"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata connector="FLOW" label="FileBasedIngestOut" name="tFileOutputXML_1">
+      <column comment="" key="false" name="Canonical" nullable="true" pattern="" sourceType="" type="id_Document"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputXML_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_1" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="CableLabs1_1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="FileBasedIngestOut" lineStyle="0" metaname="FileBasedIngestOut" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tFileOutputXML_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="Canonical"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="FileBasedIngestOut"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputXML_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

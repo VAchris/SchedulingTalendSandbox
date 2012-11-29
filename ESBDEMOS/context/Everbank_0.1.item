@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="soapAddress" prompt="soapAddress?" promptNeeded="false" type="id_String" value="http://localhost:9080/RFPSoapService"/>
+    <contextParameter comment="" name="soapAddressWsdl" prompt="soapAddressWsdl?" promptNeeded="false" type="id_String" value="C:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/resources/RFPSoapService.svc.mock.wsdl"/>
+    <contextParameter comment="" name="restAddress" prompt="restAddress?" promptNeeded="false" type="id_String" value="//localhost:9081/everbank/getRFPValue"/>
+    <contextParameter comment="" name="ftpOut" prompt="ftpOut?" promptNeeded="false" type="id_String" value="c:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/ftpout"/>
+    <contextParameter comment="" name="mockftpsIn" prompt="mockftpsIn?" promptNeeded="false" type="id_String" value="/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/mockftpsIn"/>
+    <contextParameter comment="" name="mocksftpIn" prompt="mocksftpIn?" promptNeeded="false" type="id_String" value="/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/mocksftpIn"/>
+    <contextParameter comment="" name="AMQ_BROKER_URI" prompt="AMQ_BROKER_URI?" promptNeeded="false" type="id_String" value="tcp://localhost:61616"/>
+    <contextParameter comment="" name="AMQ_host" prompt="AMQ_host?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="AMQ_port" prompt="AMQ_port?" promptNeeded="false" type="id_String" value="61616"/>
+    <contextParameter comment="" name="DotNETdll" prompt="dotNETdll?" promptNeeded="false" type="id_String" value="C:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/Resources/EverBankRFP.dll"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="dev">
+    <contextParameter comment="" name="soapAddress" prompt="soapAddress?" promptNeeded="false" type="id_String" value="http://localhost:9080/RFPSoapService"/>
+    <contextParameter comment="" name="soapAddressWsdl" prompt="soapAddressWsdl?" promptNeeded="false" type="id_String" value="http://localhost:9080/RFPSoapService?wsdl"/>
+    <contextParameter comment="" name="restAddress" prompt="restAddress?" promptNeeded="false" type="id_String" value="//localhost:9081/everbank/getRFPValue"/>
+    <contextParameter comment="" name="ftpOut" prompt="ftpOut?" promptNeeded="false" type="id_String" value="c:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/ftpout"/>
+    <contextParameter comment="" name="mockftpsIn" prompt="mockftpsIn?" promptNeeded="false" type="id_String" value="/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/mockftpsIn"/>
+    <contextParameter comment="" name="mocksftpIn" prompt="mocksftpIn?" promptNeeded="false" type="id_String" value="/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/mocksftpIn"/>
+    <contextParameter comment="" name="AMQ_BROKER_URI" prompt="AMQ_BROKER_URI?" promptNeeded="false" type="id_String" value="tcp://localhost:61616"/>
+    <contextParameter comment="" name="AMQ_host" prompt="AMQ_host?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="AMQ_port" prompt="AMQ_port?" promptNeeded="false" type="id_String" value="61616"/>
+    <contextParameter comment="" name="DotNETdll" prompt="dotNETdll?" promptNeeded="false" type="id_String" value="C:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/Resources/EverBankRFP.dll"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="prod">
+    <contextParameter comment="" name="soapAddress" prompt="soapAddress?" promptNeeded="false" type="id_String" value="http://184.73.186.71/WcfSoap/RFPSoapService.svc"/>
+    <contextParameter comment="" name="soapAddressWsdl" prompt="soapAddressWsdl?" promptNeeded="false" type="id_String" value="http://184.73.186.71/WcfSoap/RFPSoapService.svc?wsdl"/>
+    <contextParameter comment="" name="restAddress" prompt="restAddress?" promptNeeded="false" type="id_String" value="//184.73.186.71/WcfRest/RFPRestService.svc/GetRFPValue"/>
+    <contextParameter comment="" name="ftpOut" prompt="ftpOut?" promptNeeded="false" type="id_String" value="c:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/ftpout"/>
+    <contextParameter comment="" name="mockftpsIn" prompt="mockftpsIn?" promptNeeded="false" type="id_String" value="/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/mockftpsIn"/>
+    <contextParameter comment="" name="mocksftpIn" prompt="mocksftpIn?" promptNeeded="false" type="id_String" value="/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/mocksftpIn"/>
+    <contextParameter comment="" name="AMQ_BROKER_URI" prompt="AMQ_BROKER_URI?" promptNeeded="false" type="id_String" value="tcp://localhost:61616"/>
+    <contextParameter comment="" name="AMQ_host" prompt="AMQ_host?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="AMQ_port" prompt="AMQ_port?" promptNeeded="false" type="id_String" value="61616"/>
+    <contextParameter comment="" name="DotNETdll" prompt="dotNETdll?" promptNeeded="false" type="id_String" value="C:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/Resources/EverBankRFP.dll"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="test">
+    <contextParameter comment="" name="soapAddress" prompt="soapAddress?" promptNeeded="false" type="id_String" value="http://TALEND-eost:8088/mockBasicHttpBinding_IRFPSoapService"/>
+    <contextParameter comment="" name="soapAddressWsdl" prompt="soapAddressWsdl?" promptNeeded="false" type="id_String" value="http://TALEND-eost:8088/mockBasicHttpBinding_IRFPSoapService?wsdl"/>
+    <contextParameter comment="" name="restAddress" prompt="restAddress?" promptNeeded="false" type="id_String" value="//184.73.186.71/WcfRest/RFPRestService.svc/GetRFPValue"/>
+    <contextParameter comment="" name="ftpOut" prompt="ftpOut?" promptNeeded="false" type="id_String" value="c:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/ftpout"/>
+    <contextParameter comment="" name="mockftpsIn" prompt="mockftpsIn?" promptNeeded="false" type="id_String" value="/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/mockftpsIn"/>
+    <contextParameter comment="" name="mocksftpIn" prompt="mocksftpIn?" promptNeeded="false" type="id_String" value="/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/mocksftpIn"/>
+    <contextParameter comment="" name="AMQ_BROKER_URI" prompt="AMQ_BROKER_URI?" promptNeeded="false" type="id_String" value="tcp://localhost:61616"/>
+    <contextParameter comment="" name="AMQ_host" prompt="AMQ_host?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="AMQ_port" prompt="AMQ_port?" promptNeeded="false" type="id_String" value="61616"/>
+    <contextParameter comment="" name="DotNETdll" prompt="dotNETdll?" promptNeeded="false" type="id_String" value="C:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/everbank/poc/demo/Resources/EverBankRFP.dll"/>
+  </talendfile:ContextType>
+</xmi:XMI>

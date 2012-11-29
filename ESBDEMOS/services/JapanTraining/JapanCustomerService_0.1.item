@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_V-ucMDRGEeKthd6Fh_qpJA" WSDLPath="http://localhost:8071/javafirst/customerRepo?wsdl" servicePort="_V-ucMTRGEeKthd6Fh_qpJA"/>
+  <Services:ServicePort xmi:id="_V-ucMTRGEeKthd6Fh_qpJA" name="CustomerRepo" id="_V-t1IDRGEeKthd6Fh_qpJA" serviceOperation="_V-ucMjRGEeKthd6Fh_qpJA _V-ucMzRGEeKthd6Fh_qpJA _V-ucNDRGEeKthd6Fh_qpJA _V-ucNTRGEeKthd6Fh_qpJA _V-ucNjRGEeKthd6Fh_qpJA"/>
+  <Services:ServiceOperation xmi:id="_V-ucMjRGEeKthd6Fh_qpJA" label="getCustomer-JapanTraining_getCustomer" name="getCustomer" id="_V-t1ITRGEeKthd6Fh_qpJA" referenceJobId="_n46J0DRGEeKthd6Fh_qpJA"/>
+  <Services:ServiceOperation xmi:id="_V-ucMzRGEeKthd6Fh_qpJA" label="updateCustomer" name="updateCustomer" id="_V-t1IjRGEeKthd6Fh_qpJA"/>
+  <Services:ServiceOperation xmi:id="_V-ucNDRGEeKthd6Fh_qpJA" label="deleteCustomer" name="deleteCustomer" id="_V-t1IzRGEeKthd6Fh_qpJA"/>
+  <Services:ServiceOperation xmi:id="_V-ucNTRGEeKthd6Fh_qpJA" label="getCustomerAddress" name="getCustomerAddress" id="_V-t1JDRGEeKthd6Fh_qpJA"/>
+  <Services:ServiceOperation xmi:id="_V-ucNjRGEeKthd6Fh_qpJA" label="addCustomer" name="addCustomer" id="_V-t1JTRGEeKthd6Fh_qpJA"/>
+</xmi:XMI>

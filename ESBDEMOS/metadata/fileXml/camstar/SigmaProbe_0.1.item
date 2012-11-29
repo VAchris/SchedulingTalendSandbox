@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_N_1GIBEfEeKT_OvCFC8tAQ" name="repository.metadataFileXml" dataPackage="_N_1GKREfEeKT_OvCFC8tAQ" XmlFilePath="C:/Users/EdwardOst/Documents/BusinessDevelopment/Accounts/Camstar/SigmaProbe_0A88A964-2419-4268-A3C5-E1AB58FD4286.xml" Encoding="ISO-8859-15">
+    <schema xmi:id="_N_1GIREfEeKT_OvCFC8tAQ" LimitBoucle="50" AbsoluteXPathQuery="/UnitReport/TestRun/TestRun/Result/ValueDouble">
+      <schemaTargets xmi:id="_N_1GIhEfEeKT_OvCFC8tAQ" RelativeXPathQuery="../../../../@mode" TagName="Mode"/>
+      <schemaTargets xmi:id="_N_1GIxEfEeKT_OvCFC8tAQ" RelativeXPathQuery="../../../../Operator/@name" TagName="Operator"/>
+      <schemaTargets xmi:id="_N_1GJBEfEeKT_OvCFC8tAQ" RelativeXPathQuery="../../../../@start-time" TagName="starttime"/>
+      <schemaTargets xmi:id="_N_1GJREfEeKT_OvCFC8tAQ" RelativeXPathQuery="../../../../@end-time" TagName="endtime"/>
+      <schemaTargets xmi:id="_N_1GJhEfEeKT_OvCFC8tAQ" RelativeXPathQuery="../../../../Station/@name" TagName="station"/>
+      <schemaTargets xmi:id="_N_1GJxEfEeKT_OvCFC8tAQ" RelativeXPathQuery="." TagName="measurementValue"/>
+      <schemaTargets xmi:id="_N_1GKBEfEeKT_OvCFC8tAQ" RelativeXPathQuery="../../../../Property/ValueString" TagName="property"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_N_1GKREfEeKT_OvCFC8tAQ" name="repository.metadataFileXml" dataManager="_N_1GIBEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_N_1GKhEfEeKT_OvCFC8tAQ" id="_c4mEMFqTEeGfMNeeZIbpug" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N_1GKxEfEeKT_OvCFC8tAQ" label="Mode" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_N_1GLBEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N_1GLREfEeKT_OvCFC8tAQ" label="Operator" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_N_1GLhEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N_1GLxEfEeKT_OvCFC8tAQ" label="starttime" length="25" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_N_1GMBEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N_1GMREfEeKT_OvCFC8tAQ" label="endtime" length="25" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_N_1GMhEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N_1GMxEfEeKT_OvCFC8tAQ" label="station" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_N_1GNBEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N_1GNREfEeKT_OvCFC8tAQ" label="measurementValue" length="5" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_N_1GNhEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N_1GNxEfEeKT_OvCFC8tAQ" label="property" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_N_1GOBEfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

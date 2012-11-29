@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="customerRepoImpl" prompt="customerRepoImpl?" promptNeeded="false" type="id_String" value="com.talend.demo.simple.store.impl.Customers"/>
+  <contextParameter comment="" name="customerRepoSEI" prompt="customerRepoSEI?" promptNeeded="false" type="id_String" value="com.talend.demo.simple.store.service.CustomerRepo"/>
+  <contextParameter comment="" name="customerRepoWSDL" prompt="customerRepoWSDL?" promptNeeded="false" type="id_String" value="http://localhost:8071/javafirst/customerRepo"/>
+  <contextParameter comment="" name="customerRepoAddress" prompt="customerRepoAddress?" promptNeeded="false" type="id_String" value="http://localhost:8071/javafirst/customerRepo?wsdl"/>
+</talendfile:ContextType>

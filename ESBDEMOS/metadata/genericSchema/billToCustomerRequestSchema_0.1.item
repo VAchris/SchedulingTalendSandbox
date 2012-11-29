@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_OBBY8xEfEeKT_OvCFC8tAQ" comment="connectionComment" label="connectionLabel" dataPackage="_OBBY9BEfEeKT_OvCFC8tAQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_OBBY9BEfEeKT_OvCFC8tAQ" dataManager="_OBBY8xEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OBBY9REfEeKT_OvCFC8tAQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBY9hEfEeKT_OvCFC8tAQ" name="options" id="291" label="options" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBY9xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBY-BEfEeKT_OvCFC8tAQ" name="Att_Bill_To_State" id="292" label="Att_Bill_To_State" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBY-REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBY-hEfEeKT_OvCFC8tAQ" name="Att_Contract_Customer" id="293" label="Att_Contract_Customer" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBY-xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBY_BEfEeKT_OvCFC8tAQ" name="Att_Customer_Class" id="294" label="Att_Customer_Class" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBY_REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBY_hEfEeKT_OvCFC8tAQ" name="Att_Customer_Revenue" id="295" label="Att_Customer_Revenue" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBY_xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBZABEfEeKT_OvCFC8tAQ" name="Att_Customer_Tier" id="296" label="Att_Customer_Tier" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBZAREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBZAhEfEeKT_OvCFC8tAQ" name="Att_SF_Customer_Industry" id="297" label="Att_SF_Customer_Industry" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBZAxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBZBBEfEeKT_OvCFC8tAQ" name="Att_SF_Customer_Type" id="298" label="Att_SF_Customer_Type" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBZBREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBZBhEfEeKT_OvCFC8tAQ" name="Bill_To_ID" id="299" label="Bill_To_ID" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBZBxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBZCBEfEeKT_OvCFC8tAQ" name="Customer_Class" id="300" label="Customer_Class" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBZCREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OBBZChEfEeKT_OvCFC8tAQ" name="Customer_ID" id="301" label="Customer_ID" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_OBBZCxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_fviBAP5mEeG5q5QF5Lsvgg" name="mysqldwh" label="mysqlcdc" dataPackage="_fviBCP5mEeG5q5QF5Lsvgg" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3307/dwh?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3307" Username="tadmin" Password="ZYODzZCOsEc=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="dwh" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_fviBAf5mEeG5q5QF5Lsvgg" tag="Status" value=""/>
+    <taggedValue xmi:id="_fviBAv5mEeG5q5QF5Lsvgg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_fviBA_5mEeG5q5QF5Lsvgg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_fviBBP5mEeG5q5QF5Lsvgg" tag="Description" value=""/>
+    <taggedValue xmi:id="_fviBBf5mEeG5q5QF5Lsvgg" tag="Author" value=""/>
+    <taggedValue xmi:id="_fviBBv5mEeG5q5QF5Lsvgg" tag="otherParameter" value=""/>
+    <taggedValue xmi:id="_fviBB_5mEeG5q5QF5Lsvgg" tag="DB IdentifierQuoteString" value="`"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_fviBCP5mEeG5q5QF5Lsvgg" name="dwh" dataManager="_fviBAP5mEeG5q5QF5Lsvgg">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_fviBCf5mEeG5q5QF5Lsvgg" name="customers" id="_8MzhwLh8EeG7wfDjoZRtfg" label="customers" tableType="TABLE">
+      <taggedValue xmi:id="_fviBCv5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_fviBC_5mEeG5q5QF5Lsvgg" name="sysid" label="sysid" length="19" sourceType="BIGINT" talendType="id_Long" key="true" nullable="false">
+        <taggedValue xmi:id="_fviBDP5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_fviBDf5mEeG5q5QF5Lsvgg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_fviBDv5mEeG5q5QF5Lsvgg" name="BIGINT" numericPrecisionRadix="10" javaDataType="-5"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_fviBD_5mEeG5q5QF5Lsvgg" name="lastname" label="lastname" length="20" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_fviBEP5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_fviBEf5mEeG5q5QF5Lsvgg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_fviBEv5mEeG5q5QF5Lsvgg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_fviBE_5mEeG5q5QF5Lsvgg" name="firstname" label="firstname" length="20" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_fviBFP5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_fviBFf5mEeG5q5QF5Lsvgg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_fviBFv5mEeG5q5QF5Lsvgg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_fviBF_5mEeG5q5QF5Lsvgg" name="age" label="age" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_fviBGP5mEeG5q5QF5Lsvgg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_fviBGf5mEeG5q5QF5Lsvgg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_fviBGv5mEeG5q5QF5Lsvgg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

@@ -1,0 +1,8 @@
+package beans;
+
+public class MockBean {
+
+    public static void mockMethod(String message) {
+        System.out.println("MockBean: message = " + message);
+    }
+}

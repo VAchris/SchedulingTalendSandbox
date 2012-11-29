@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_N5l7QxEfEeKT_OvCFC8tAQ" comment="connectionComment" label="connectionLabel" dataPackage="_N5l7RBEfEeKT_OvCFC8tAQ" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_N5l7RBEfEeKT_OvCFC8tAQ" dataManager="_N5l7QxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_N5l7RREfEeKT_OvCFC8tAQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5l7RhEfEeKT_OvCFC8tAQ" name="operator" id="10509" label="operator" sourceType="BIGINT" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_N5l7RxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5l7SBEfEeKT_OvCFC8tAQ" name="mode" id="10510" label="mode" sourceType="BIGINT" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_N5l7SREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5l7ShEfEeKT_OvCFC8tAQ" name="starttime" id="10511" label="starttime" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;">
+        <initialValue xmi:id="_N5l7SxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5l7TBEfEeKT_OvCFC8tAQ" name="endtime" id="10512" label="endtime" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;">
+        <initialValue xmi:id="_N5l7TREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5l7ThEfEeKT_OvCFC8tAQ" name="station" id="10513" label="station" sourceType="BIGINT" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_N5l7TxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5l7UBEfEeKT_OvCFC8tAQ" name="valueouble" id="10514" label="valueouble" sourceType="FLOAT" talendType="id_Float" nullable="false">
+        <initialValue xmi:id="_N5l7UREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5l7UhEfEeKT_OvCFC8tAQ" name="propertyvalue" id="10515" label="propertyvalue" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_N5l7UxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

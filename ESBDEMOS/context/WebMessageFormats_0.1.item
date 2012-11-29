@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="frenchVersion" prompt="frenchVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImplFrench"/>
+    <contextParameter comment="" name="implementationClass" prompt="implementationClass?" promptNeeded="false" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter comment="" name="serviceClass" prompt="serviceClass?" promptNeeded="false" type="id_String" value="beans.HelloWorld"/>
+    <contextParameter comment="" name="wsdlAddress" prompt="wsdlAddress" promptNeeded="false" type="id_String" value="http://localhost:8800/helloWorld?wsdl"/>
+    <contextParameter comment="" name="englishVersion" prompt="englishVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter comment="" name="germanVersion" prompt="germanVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImplGerman"/>
+    <contextParameter comment="" name="serviceAddress" prompt="serviceAddress?" promptNeeded="false" type="id_String" value="http://localhost:8800/helloWorld"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="dev">
+    <contextParameter comment="" name="frenchVersion" prompt="frenchVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImplFrench"/>
+    <contextParameter comment="" name="implementationClass" prompt="implementationClass?" promptNeeded="false" type="id_String" value="beans.HelloWorldImplFrench"/>
+    <contextParameter comment="" name="serviceClass" prompt="serviceClass?" promptNeeded="false" type="id_String" value="beans.HelloWorld"/>
+    <contextParameter comment="" name="wsdlAddress" prompt="wsdlAddress" promptNeeded="false" type="id_String" value="http://localhost:8800/helloWorld?wsdl"/>
+    <contextParameter comment="" name="englishVersion" prompt="englishVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter comment="" name="germanVersion" prompt="germanVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImplGerman"/>
+    <contextParameter comment="" name="serviceAddress" prompt="serviceAddress?" promptNeeded="false" type="id_String" value="http://localhost:8800/helloWorld"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="prod">
+    <contextParameter comment="" name="frenchVersion" prompt="frenchVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImplFrench"/>
+    <contextParameter comment="" name="implementationClass" prompt="implementationClass?" promptNeeded="false" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter comment="" name="serviceClass" prompt="serviceClass?" promptNeeded="false" type="id_String" value="beans.HelloWorld"/>
+    <contextParameter comment="" name="wsdlAddress" prompt="wsdlAddress" promptNeeded="false" type="id_String" value="http://localhost:8801/helloWorld?wsdl"/>
+    <contextParameter comment="" name="englishVersion" prompt="englishVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter comment="" name="germanVersion" prompt="germanVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImplGerman"/>
+    <contextParameter comment="" name="serviceAddress" prompt="serviceAddress?" promptNeeded="false" type="id_String" value="http://localhost:8801/helloWorld"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="test">
+    <contextParameter comment="" name="frenchVersion" prompt="frenchVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImplFrench"/>
+    <contextParameter comment="" name="implementationClass" prompt="implementationClass?" promptNeeded="false" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter comment="" name="serviceClass" prompt="serviceClass?" promptNeeded="false" type="id_String" value="beans.HelloWorld"/>
+    <contextParameter comment="" name="wsdlAddress" prompt="wsdlAddress" promptNeeded="false" type="id_String" value="http://localhost:8802/helloWorld?wsdl"/>
+    <contextParameter comment="" name="englishVersion" prompt="englishVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter comment="" name="germanVersion" prompt="germanVersion?" promptNeeded="false" type="id_String" value="beans.HelloWorldImplGerman"/>
+    <contextParameter comment="" name="serviceAddress" prompt="serviceAddress?" promptNeeded="false" type="id_String" value="http://localhost:8802/helloWorld"/>
+  </talendfile:ContextType>
+</xmi:XMI>

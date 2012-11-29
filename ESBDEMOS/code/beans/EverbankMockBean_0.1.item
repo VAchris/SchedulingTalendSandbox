@@ -1,0 +1,28 @@
+package beans;
+
+
+public class EverbankMockBean {
+
+	public EverbankMockBean() {
+		
+	}
+	
+	public String getRFPValue() {
+		return "<tem:GetRFPValueResponse xmlns:tem=\"http://tempuri.org/\"><tem:GetRFPValueResult><![CDATA[<RfpDemo><Results><Result><Key>1</Key><Value>34</Value></Result></Results></RfpDemo>]]></tem:GetRFPValueResult></tem:GetRFPValueResponse>";
+	}
+	
+	public String getRFPValue1() {
+		return "<GetRFPValue1Response xmlns=\"http://tempuri.org/\"><GetRFPValue1Result xmlns:a=\"http://www.esbrfpdemo.com/RfpDemo\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"><a:Results><a:Key>13</a:Key><a:Value>0</a:Value></a:Results></GetRFPValue1Result></GetRFPValue1Response>";
+	}
+
+	// this method call (with non-standard convention, non-camelCase convention, is necessary to match the SOAP operation name
+	public String GetRFPValue() {
+		return getRFPValue();
+	}
+	
+	// this method call (with non-standard convention, non-camelCase convention, is necessary to match the SOAP operation name
+	public String GetRFPValue1() {
+		return getRFPValue1();
+	}
+	
+}

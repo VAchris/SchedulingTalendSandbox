@@ -1,0 +1,10 @@
+package beans;
+
+public interface HelloWorld {
+
+    public String helloExample(String message);
+
+    public String sayHi(String name);
+
+    public String introduce(String oldPerson, String newPerson);
+}

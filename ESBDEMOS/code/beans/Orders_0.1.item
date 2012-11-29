@@ -1,0 +1,91 @@
+package beans;
+
+public class Orders {
+
+	private int sysid;
+	private String orderId;
+	private String customerReference;
+	private int customerId;
+	private String title;
+	private String description;
+	private String orderType;
+	
+	public Orders() {
+	}
+
+	public Orders(String orderId, String title) {
+		super();
+		this.orderId = orderId;
+		this.title = title;
+	}
+	
+	public Orders(int sysid, String orderId, String customerReference,
+			int customerId, String title, String description, String orderType) {
+		super();
+		this.sysid = sysid;
+		this.orderId = orderId;
+		this.customerReference = customerReference;
+		this.customerId = customerId;
+		this.title = title;
+		this.description = description;
+		this.orderType = orderType;
+	}
+
+	public int getSysid() {
+		return sysid;
+	}
+
+	public void setSysid(int sysid) {
+		this.sysid = sysid;
+	}
+
+	public String getOrderId() {
+		return orderId;
+	}
+
+	public void setOrderId(String orderId) {
+		this.orderId = orderId;
+	}
+
+	public String getCustomerReference() {
+		return customerReference;
+	}
+
+	public void setCustomerReference(String customerReference) {
+		this.customerReference = customerReference;
+	}
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getOrderType() {
+		return orderType;
+	}
+
+	public void setOrderType(String orderType) {
+		this.orderType = orderType;
+	}
+
+
+}

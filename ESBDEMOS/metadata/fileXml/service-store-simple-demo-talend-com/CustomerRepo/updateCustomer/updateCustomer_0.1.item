@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_5VCrUDQLEeKKRr0-N0AzRA" name="repository.metadataFileXml" dataPackage="_5VCrXzQLEeKKRr0-N0AzRA" XmlFilePath="tempXSDFile0.XSD.zip" inputModel="false" fileContent="504B0304140008080800ED6D75410000000000000000000000001000000074656D7058534446696C65302E585344D597CD8ED3301080EF48BC43950748BACBADDA22211012D2021270E06AEC696BC976B2F69874797A26691242D6C97A2BAB527BA89AF1CCE7F9E98C9DBBA3131BC70FA0D9EAA895711B126CB30362B5298ABAAEF3FA4D5EDA7D71BB5EDF143F3FDF7F6F75B34ED9B89B41F9447139ADB89255AD55F3A368D67B8346B068513BA14E66BD091AF7CF02EC6FC92177585AFA96BA52900BD0658E4C8111392FF560D8A09EDF2B1BE28E099B215AF9CB237C2CADFE003BE6156E336F1E3C53722741642B50A0C1E0BC0232BB07FCC234B88A717861706F5FBF5AD1E7AE295CB7D5CA106B9B3121DE7B32D6606993C78A4494BBCD585C44597F23C74AE36086322C2FD0043D2284DC99AC4433424ECD682C3029F121A7C6E238EB774258706E06D2AFBE88158A70412B8EFD0C3486E62BC1C2B59CAC4433424ECD68FCC7A406A09E38FE20A3403D3BCD41DBC18307C361247FE29D96E62BE7DE52F3AFB38EC93BE027D1FBD7D2A8F1CD7EF0A72515816D4EC291A7D1010C319F13C88EC6CD361B4D99506416D05B33CE3A9FD62E555C3C7555D8D38663932E4B5FE128DA4E5AD78EF31430C5A258294AD4A72F7185D224954B7C4CC1A1535BAA14A0EA509A24157648732E0DC802600AD21F595DE0FF36392D528FEB8B8CB599536A2E96E2BC5D2677A4AB3CD866EE66893315B8735D65B616EE7917BC0D840ED44427CD75B77DE8EDE79C7F72E74BFB32498F7F01504B0708E78E0FA30B0200007E0F0000504B01021400140008080800ED6D7541E78E0FA30B0200007E0F000010000000000000000000000000000000000074656D7058534446696C65302E585344504B050600000000010001003E000000490200000000">
+    <root xmi:id="_5VCrUTQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer" Attribute="main" Order="1" Type="id_String"/>
+    <root xmi:id="_5VCrUjQLEeKKRr0-N0AzRA" XMLPath="tns" DefaultValue="http://service.store.simple.demo.talend.com/" Attribute="ns" Order="2" Type="id_String"/>
+    <loop xmi:id="_5VCrUzQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer" Attribute="main" Order="3" Type="id_String"/>
+    <loop xmi:id="_5VCrVDQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/address" Attribute="main" Order="4" Type="id_String"/>
+    <loop xmi:id="_5VCrVTQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/address/addressId" RelatedColumn="addressId" Attribute="branch" Order="5" Type="id_String"/>
+    <loop xmi:id="_5VCrVjQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/address/city" RelatedColumn="city" Attribute="branch" Order="6" Type="id_String"/>
+    <loop xmi:id="_5VCrVzQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/address/email" RelatedColumn="email" Attribute="branch" Order="7" Type="id_String"/>
+    <loop xmi:id="_5VCrWDQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/address/phone" RelatedColumn="phone" Attribute="branch" Order="8" Type="id_String"/>
+    <loop xmi:id="_5VCrWTQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/address/state" RelatedColumn="state" Attribute="branch" Order="9" Type="id_String"/>
+    <loop xmi:id="_5VCrWjQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/address/street" RelatedColumn="street" Attribute="branch" Order="10" Type="id_String"/>
+    <loop xmi:id="_5VCrWzQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/address/zip" RelatedColumn="zip" Attribute="branch" Order="11" Type="id_String"/>
+    <loop xmi:id="_5VCrXDQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/customerId" RelatedColumn="customerId" Attribute="branch" Order="12" Type="id_String"/>
+    <loop xmi:id="_5VCrXTQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/firstName" RelatedColumn="firstName" Attribute="branch" Order="13" Type="id_String"/>
+    <loop xmi:id="_5VCrXjQLEeKKRr0-N0AzRA" XMLPath="/tns:updateCustomer/customer/lastName" RelatedColumn="lastName" Attribute="branch" Order="14" Type="id_String"/>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_5VCrXzQLEeKKRr0-N0AzRA" name="repository.metadataFileXml" dataManager="_5VCrUDQLEeKKRr0-N0AzRA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5VCrYDQLEeKKRr0-N0AzRA" id="_5VA2IDQLEeKKRr0-N0AzRA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCrYTQLEeKKRr0-N0AzRA" label="addressId" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCrYjQLEeKKRr0-N0AzRA" label="city" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCrYzQLEeKKRr0-N0AzRA" label="email" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCrZDQLEeKKRr0-N0AzRA" label="phone" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCrZTQLEeKKRr0-N0AzRA" label="state" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCrZjQLEeKKRr0-N0AzRA" label="street" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCrZzQLEeKKRr0-N0AzRA" label="zip" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCraDQLEeKKRr0-N0AzRA" label="customerId" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCraTQLEeKKRr0-N0AzRA" label="firstName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5VCrajQLEeKKRr0-N0AzRA" label="lastName" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

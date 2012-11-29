@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_dsP6o_5mEeG5q5QF5Lsvgg" name="MSSQL_Test" label="MSSQL_Test" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:1433/Test;instance=SQLEXPRESS" Port="1433" Username="sa" Password="HpA8dp29LhM=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="Test" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="instance=SQLEXPRESS" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_dsP6pP5mEeG5q5QF5Lsvgg" tag="Using URL" value="jdbc:jtds:sqlserver://localhost:1433/Test;instance=SQLEXPRESS"/>
+  <taggedValue xmi:id="_dsP6pf5mEeG5q5QF5Lsvgg" tag="package filter" value=""/>
+  <taggedValue xmi:id="_dsP6pv5mEeG5q5QF5Lsvgg" tag="Status" value=""/>
+  <taggedValue xmi:id="_dsP6p_5mEeG5q5QF5Lsvgg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_dsP6qP5mEeG5q5QF5Lsvgg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_dsP6qf5mEeG5q5QF5Lsvgg" tag="Description" value=""/>
+  <taggedValue xmi:id="_dsP6qv5mEeG5q5QF5Lsvgg" tag="Author" value=""/>
+  <taggedValue xmi:id="_dsP6q_5mEeG5q5QF5Lsvgg" tag="otherParameter" value=""/>
+</TalendMetadata:DatabaseConnection>

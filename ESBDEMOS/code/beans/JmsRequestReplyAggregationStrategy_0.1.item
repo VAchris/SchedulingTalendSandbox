@@ -1,0 +1,40 @@
+package beans;
+
+import org.apache.camel.Exchange;
+import org.apache.camel.Message;
+import org.apache.camel.processor.aggregate.AggregationStrategy;
+import javax.activation.DataSource;
+import javax.activation.DataHandler;
+
+public class JmsRequestReplyAggregationStrategy implements AggregationStrategy {
+
+    public Exchange aggregate(Exchange oldExchange, Exchange newExchange) {
+    	
+    	if (oldExchange == null) {
+    		return newExchange;
+    	}
+    	
+    	Exchange requestExchange;
+    	Exchange responseExchange;
+
+    	Boolean oldResultFlag = oldExchange.getIn().getHeader("resultFlag", false, Boolean.class);
+    	if (oldResultFlag) {
+    		requestExchange = newExchange;
+    		responseExchange = oldExchange;
+    	}
+    	else {
+    		requestExchange = oldExchange;
+    		responseExchange = newExchange;
+    	}
+    	
+   		appendRequestAttachment(responseExchange.getIn(), requestExchange.getIn());
+    	
+    	return responseExchange;
+	}
+
+	private void appendRequestAttachment(Message targetMessage, Message sourceMessage) {
+		DataSource ds = new TalendStringDataSource(sourceMessage.getBody(String.class));
+   		DataHandler dh = new DataHandler(ds);
+    	targetMessage.addAttachment("request", dh);
+	}
+}

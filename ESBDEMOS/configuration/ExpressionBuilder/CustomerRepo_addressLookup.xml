@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="null=>resultSet=>addressId" expression="Integer.toString(address.sysid)">
+  <variables name="customerId.customerId" value="null" talendType="id_String" nullable="true"/>
+  <variables name="customer.sysid" value="0" talendType="id_Integer"/>
+  <variables name="customer.customerId" value="null" talendType="id_String"/>
+  <variables name="customer.last" value="null" talendType="id_String"/>
+  <variables name="customer.first" value="null" talendType="id_String" nullable="true"/>
+  <variables name="customer.gender" value="null" talendType="id_String" nullable="true"/>
+  <variables name="address.sysid" value="0" talendType="id_Integer"/>
+  <variables name="address.customerId" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="address.addressType" value="null" talendType="id_String"/>
+  <variables name="address.street1" value="null" talendType="id_String" nullable="true"/>
+  <variables name="address.street2" value="null" talendType="id_String" nullable="true"/>
+  <variables name="address.city" value="null" talendType="id_String" nullable="true"/>
+  <variables name="address.zip" value="null" talendType="id_String" nullable="true"/>
+  <variables name="address.zipExtension" value="null" talendType="id_String" nullable="true"/>
+  <variables name="address.state" value="null" talendType="id_String" nullable="true"/>
+  <variables name="address.country" value="null" talendType="id_String" nullable="true"/>
+  <variables name="address.email" value="null" talendType="id_String" nullable="true"/>
+  <variables name="address.phone" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

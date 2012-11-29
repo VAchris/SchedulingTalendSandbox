@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="IB_Password" prompt="IB_Password?" promptNeeded="false" type="id_Password" value="SS00TonaHrc="/>
+  <contextParameter comment="" name="IB_AdditionalParams" prompt="IB_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter comment="" name="IB_Database" prompt="IB_Database?" promptNeeded="false" type="id_String" value="test"/>
+  <contextParameter comment="" name="IB_Port" prompt="IB_Port?" promptNeeded="false" type="id_String" value="5029"/>
+  <contextParameter comment="" name="IB_Login" prompt="IB_Login?" promptNeeded="false" type="id_String" value="remoteloader"/>
+  <contextParameter comment="" name="IB_Server" prompt="IB_Server?" promptNeeded="false" type="id_String" value="10.50.5.29"/>
+</talendfile:ContextType>

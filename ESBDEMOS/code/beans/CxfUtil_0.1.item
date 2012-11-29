@@ -1,0 +1,110 @@
+package beans;
+
+import org.apache.camel.Exchange;
+import org.apache.camel.Message;
+import org.apache.camel.component.cxf.common.message.CxfConstants;
+import org.apache.cxf.message.MessageContentsList;
+import org.apache.camel.component.bean.BeanInvocation;
+import java.lang.reflect.Method;
+
+public class CxfUtil {
+
+	
+	private static String getMethodName(Exchange exchange) {
+		String methodName = exchange.getIn().getHeader(Exchange.BEAN_METHOD_NAME, String.class);
+		if (methodName != null)
+			return methodName;
+
+		methodName = exchange.getIn().getHeader(CxfConstants.OPERATION_NAME, String.class);
+		if (methodName != null) {
+			exchange.getIn().setHeader(Exchange.BEAN_METHOD_NAME, methodName);
+			return methodName;
+		}
+
+		Exception nullMethodName = new Exception("Header CamelBeanMethodName must be set.");
+		nullMethodName.printStackTrace();
+		exchange.setException(nullMethodName);
+		return null;
+	}
+
+	private static String getSeiClassName(Exchange exchange) {
+		String seiClassName = exchange.getIn().getHeader("seiClassName", String.class);
+		if (seiClassName == null) {
+			Exception nullSeiClassName = new Exception("Header seiClassName must be set.");
+			nullSeiClassName.printStackTrace();
+			exchange.setException(nullSeiClassName);
+			return null;
+		}
+		return seiClassName;
+	}
+
+	private static Class<?> getSeiClass(Exchange exchange) {
+		String seiClassName = getSeiClassName(exchange);
+		if (seiClassName == null) {
+			return null;
+		}
+
+		Class<?> seiClass = null;
+		try {
+			seiClass = Class.forName(seiClassName);
+		} catch (ClassNotFoundException e) {
+			Exception seiClassNotFound = new Exception("Could not find class for " + seiClassName, e);
+			seiClassNotFound.printStackTrace();
+			exchange.setException(seiClassNotFound);
+			return null;
+		}
+		return seiClass;
+		
+	}
+	
+	private static BeanInvocation createBeanInvocation(Exchange exchange, Class<?> seiClass, String methodName) {
+		Message message = exchange.getIn();
+		MessageContentsList msgList = message.getBody(MessageContentsList.class);
+		
+		Class<?>[] parameterTypes = new Class<?>[msgList.size()];
+		Object[] parmList = new Object[msgList.size()];
+
+		int i = 0;
+		for (Object parm : msgList) {
+			parameterTypes[i] = parm.getClass();
+			parmList[i] = parm;
+			++i;
+		}
+		
+		Method method = null;
+		try {
+			method = seiClass.getMethod(methodName, parameterTypes);
+		} catch (NoSuchMethodException e) {
+			Exception noMethodFound = new Exception("Could not find " + methodName + " for class " + seiClass.getName(), e);
+			noMethodFound.printStackTrace();
+			exchange.setException(noMethodFound);
+			return null;
+		}
+		
+		BeanInvocation beanInvocation = new BeanInvocation(method, parmList);
+		return beanInvocation;
+	}
+
+	public static void cxfPayloadConvention(Message message, BeanInvocation beanInvocation) {
+		message.setHeader("cxfPayload", message.getBody());
+		message.setBody(beanInvocation);
+	}
+	
+	public static void cxfToPojo(Exchange exchange) {
+
+		String methodName = getMethodName(exchange);
+		if (methodName == null) {
+			return;
+		}
+
+		Class<?> seiClass = getSeiClass(exchange);
+		if (seiClass == null) {
+			return;
+		}
+
+		BeanInvocation beanInvocation = createBeanInvocation(exchange, seiClass, methodName);
+
+		cxfPayloadConvention(exchange.getIn(), beanInvocation);
+	}
+	
+}

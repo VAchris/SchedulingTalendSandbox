@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_PTftcxEfEeKT_OvCFC8tAQ" dataPackage="_PTftdBEfEeKT_OvCFC8tAQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_PTftdBEfEeKT_OvCFC8tAQ" dataManager="_PTftcxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_PTftdREfEeKT_OvCFC8tAQ" id="_RhtAYL0rEeGRg-J-E9Lfjw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftdhEfEeKT_OvCFC8tAQ" name="accountId" label="accountId" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_PTftdxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTfteBEfEeKT_OvCFC8tAQ" name="accountName" label="accountName" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_PTfteREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftehEfEeKT_OvCFC8tAQ" name="industry" label="industry" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_PTftexEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftfBEfEeKT_OvCFC8tAQ" name="accountType" label="accountType" length="50" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_PTftfREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftfhEfEeKT_OvCFC8tAQ" name="accountExpires" label="accountExpires" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_PTftfxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftgBEfEeKT_OvCFC8tAQ" name="accountStatus" label="accountStatus" length="50" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_PTftgREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftghEfEeKT_OvCFC8tAQ" name="numActiveUsers" label="numActiveUsers" length="10" sourceType="FLOAT" talendType="id_Float">
+        <initialValue xmi:id="_PTftgxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTfthBEfEeKT_OvCFC8tAQ" name="grantsAppliedForACV" label="grantsAppliedForACV" length="10" sourceType="FLOAT" talendType="id_Float">
+        <initialValue xmi:id="_PTfthREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTfthhEfEeKT_OvCFC8tAQ" name="grantsAppliedForACV_WeightedScore" label="grantsAppliedForACV_WeightedScore" length="10" sourceType="FLOAT" talendType="id_Float">
+        <initialValue xmi:id="_PTfthxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftiBEfEeKT_OvCFC8tAQ" name="grantsWonACV" label="grantsWonACV" length="10" sourceType="FLOAT" talendType="id_Float">
+        <initialValue xmi:id="_PTftiREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftihEfEeKT_OvCFC8tAQ" name="grantsWonACV_WeightedScore" label="grantsWonACV_WeightedScore" length="10" sourceType="FLOAT" talendType="id_Float">
+        <initialValue xmi:id="_PTftixEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftjBEfEeKT_OvCFC8tAQ" name="sfAccountId" label="sfAccountId" length="255" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_PTftjREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTftjhEfEeKT_OvCFC8tAQ" name="lastModified" label="lastModified" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_PTftjxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

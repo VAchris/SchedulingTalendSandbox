@@ -1,0 +1,36 @@
+package beans;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+public class Echo {
+
+	Logger log = LoggerFactory.getLogger(Echo.class);
+	
+	private String preEcho;
+	private String postEcho;
+	
+	public Echo(String preEcho, String postEcho) {
+		this.preEcho = preEcho;
+		this.postEcho = postEcho;
+	}
+	
+	public Echo() {
+		this("echo: ", " ***");
+	}
+	
+	public void echo(String body) {
+		log.info(getPreEcho() + body + getPostEcho());
+	}
+
+	public String getPreEcho() {
+		return preEcho;
+	}
+
+	public String getPostEcho() {
+		return postEcho;
+	}
+
+	
+}

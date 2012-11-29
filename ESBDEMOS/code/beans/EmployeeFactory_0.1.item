@@ -1,0 +1,22 @@
+package beans;
+
+public class EmployeeFactory {
+
+	public EmployeeFactory() {
+		
+	}
+	
+	public Employee createEmployee(String employeeId, String forename, String surname) {
+		return new Employee(employeeId, forename, surname);
+	}
+	
+	public Employee createEmployeeFromString(String employeeInfo) {
+		int commaIndex = employeeInfo.indexOf(",");
+		String employeeId = employeeInfo.substring(0, commaIndex);
+		String forname = employeeInfo.substring(commaIndex  + 1);
+		commaIndex = employeeInfo.indexOf(",", commaIndex + 1);
+		String surname = employeeInfo.substring(commaIndex  + 1);
+		return this.createEmployee(employeeId, forname, surname);
+	}
+
+}

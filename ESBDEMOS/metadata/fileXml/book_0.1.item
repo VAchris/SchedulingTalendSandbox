@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:XmlFileConnection xmi:id="_O-xaoxEfEeKT_OvCFC8tAQ" dataPackage="_O-xaqhEfEeKT_OvCFC8tAQ" XmlFilePath="/home/nfrancisco/Talend/Projets/TalendDemoJava/talend_files_0.1/in/XML/sample.xml" Encoding="ISO-8859-1">
+    <schema xmi:id="_O-xapBEfEeKT_OvCFC8tAQ" LimitBoucle="5000" AbsoluteXPathQuery="/root/biblio/book">
+      <schemaTargets xmi:id="_O-xapREfEeKT_OvCFC8tAQ" RelativeXPathQuery="@id" TagName="id"/>
+      <schemaTargets xmi:id="_O-xaphEfEeKT_OvCFC8tAQ" RelativeXPathQuery="title/@subtitle" TagName="subtitle"/>
+      <schemaTargets xmi:id="_O-xapxEfEeKT_OvCFC8tAQ" RelativeXPathQuery="author" TagName="author"/>
+      <schemaTargets xmi:id="_O-xaqBEfEeKT_OvCFC8tAQ" RelativeXPathQuery="volumes/volume/@VolumeNo" TagName="VolumeNo"/>
+      <schemaTargets xmi:id="_O-xaqREfEeKT_OvCFC8tAQ" RelativeXPathQuery="volumes/volume/@nbPages" TagName="nbPages"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <TalendMetadata:GenericPackage xmi:id="_O-xaqhEfEeKT_OvCFC8tAQ" dataManager="_O-xaoxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_O-xaqxEfEeKT_OvCFC8tAQ" id="_doC6wCLkEd-O8r6_89nfnA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O-xarBEfEeKT_OvCFC8tAQ" name="" label="id" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_O-xarREfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O-xarhEfEeKT_OvCFC8tAQ" name="" label="subtitle" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_O-xarxEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O-xasBEfEeKT_OvCFC8tAQ" name="" label="author" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_O-xasREfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O-xashEfEeKT_OvCFC8tAQ" name="" label="VolumeNo" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_O-xasxEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O-xatBEfEeKT_OvCFC8tAQ" name="" label="nbPages" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_O-xatREfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

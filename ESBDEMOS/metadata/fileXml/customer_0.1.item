@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:XmlFileConnection xmi:id="_PgY58xEfEeKT_OvCFC8tAQ" dataPackage="_PgY59xEfEeKT_OvCFC8tAQ" XmlFilePath="/home/nfrancisco/Talend/Projets/TalendDemoJava/talend_files_0.1/in/XML/sample.xml" Encoding="ISO-8859-1">
+    <schema xmi:id="_PgY59BEfEeKT_OvCFC8tAQ" LimitBoucle="5000" AbsoluteXPathQuery="/root/customers/country/state/customer">
+      <schemaTargets xmi:id="_PgY59REfEeKT_OvCFC8tAQ" RelativeXPathQuery="@firstname" TagName="firstname"/>
+      <schemaTargets xmi:id="_PgY59hEfEeKT_OvCFC8tAQ" RelativeXPathQuery="@lastname" TagName="lastname"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <TalendMetadata:GenericPackage xmi:id="_PgY59xEfEeKT_OvCFC8tAQ" dataManager="_PgY58xEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_PgY5-BEfEeKT_OvCFC8tAQ" id="_M51bkCLlEd-O8r6_89nfnA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PgY5-REfEeKT_OvCFC8tAQ" name="" label="firstname" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_PgY5-hEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PgY5-xEfEeKT_OvCFC8tAQ" name="" label="lastname" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_PgY5_BEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

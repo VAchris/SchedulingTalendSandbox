@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_VLNYkDQaEeKKRr0-N0AzRA" name="CIE" label="CIE" dataPackage="_VLN_oDQaEeKKRr0-N0AzRA" version="0.1" DatabaseType="MySQL" DriverJarPath="" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/demo?noDatetimeStringSync=true" Port="3306" Username="tadmin" Password="ZYODzZCOsEc=" ServerName="localhost" SID="demo" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_VLNYkTQaEeKKRr0-N0AzRA" tag="Status" value=""/>
+    <taggedValue xmi:id="_VLNYkjQaEeKKRr0-N0AzRA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_VLNYkzQaEeKKRr0-N0AzRA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_VLNYlDQaEeKKRr0-N0AzRA" tag="Description" value=""/>
+    <taggedValue xmi:id="_VLNYlTQaEeKKRr0-N0AzRA" tag="Author" value=""/>
+    <taggedValue xmi:id="_VLNYljQaEeKKRr0-N0AzRA" tag="otherParameter" value=""/>
+    <taggedValue xmi:id="_VLNYlzQaEeKKRr0-N0AzRA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_VLNYmDQaEeKKRr0-N0AzRA" tag="DB ProductVersion" value="5.1.61-community"/>
+    <taggedValue xmi:id="_VLNYmTQaEeKKRr0-N0AzRA" tag="DB IdentifierQuoteString" value="`"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_VLN_oDQaEeKKRr0-N0AzRA" name="demo" dataManager="_VLNYkDQaEeKKRr0-N0AzRA"/>
+</xmi:XMI>

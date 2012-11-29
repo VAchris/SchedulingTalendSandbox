@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="routes to EXTERNAL clientMinaEndpoint" name="minaClientAccessPoint" prompt="minaAccessPoint" promptNeeded="false" type="id_String" value="vm:minaClient"/>
+  <contextParameter comment="routes to service" name="vmServiceAccessPoint" prompt="vmServiceAccessPoint?" promptNeeded="false" type="id_String" value="vm:helloWorld"/>
+  <contextParameter comment="routes to serviceAccessPoint" name="vmClientAccessPoint" prompt="vmClientAccessPoint?" promptNeeded="false" type="id_String" value="vm:helloWorldClient"/>
+  <contextParameter comment="routes to ClientAccessPoint" name="vmClient" prompt="vmClient?" promptNeeded="false" type="id_String" value="vm:helloWorldClient"/>
+  <contextParameter comment="routes to serviceImpl" name="vmService" prompt="vmService?" promptNeeded="false" type="id_String" value="vm:helloWorld"/>
+  <contextParameter comment="The fully qualified name of the service class, e.g. my.package.MyClass" name="serviceImpl" prompt="serviceImpl?" promptNeeded="false" type="id_String" value="beans.HelloWorldImpl"/>
+  <contextParameter comment="routes to minaAccessPoint" name="minaClient" prompt="minaClient?" promptNeeded="false" type="id_String" value="vm:minaClient"/>
+  <contextParameter comment="" name="jmsClient" prompt="jmsClient?" promptNeeded="false" type="id_String" value="vm:jmsClient"/>
+  <contextParameter comment="" name="jmsClientAccessPoint" prompt="jmsClientAccessPoint?" promptNeeded="false" type="id_String" value="vm:jmsClient"/>
+  <contextParameter comment="" name="cxfClient" prompt="cxfClient?" promptNeeded="false" type="id_String" value="vm:cxfClient"/>
+  <contextParameter comment="" name="cxfClientAccessPoint" prompt="cxfClientAccessPoint?" promptNeeded="false" type="id_String" value="vm:cxfClient"/>
+  <contextParameter comment="" name="operationName" prompt="operationName?" promptNeeded="false" type="id_String" value="helloExample"/>
+  <contextParameter comment="" name="serviceImplMethod" prompt="serviceImplMethod?" promptNeeded="false" type="id_String" value="helloExample"/>
+  <contextParameter comment="" name="minaSender" prompt="minaSender?" promptNeeded="false" type="id_String" value="vm:minaSender"/>
+  <contextParameter comment="" name="minaSenderAccessPoint" prompt="minaSenderAccessPoint?" promptNeeded="false" type="id_String" value="vm:minaSender"/>
+  <contextParameter comment="" name="vmSender" prompt="vmSender?" promptNeeded="false" type="id_String" value="vm:sender"/>
+  <contextParameter comment="" name="vmSenderAccessPoint" prompt="vmSenderAccessPoint?" promptNeeded="false" type="id_String" value="vm:sender"/>
+  <contextParameter comment="" name="vmReceiver" prompt="vmReceiver?" promptNeeded="false" type="id_String" value="vm:receiver"/>
+  <contextParameter comment="" name="vmReceiverAccessPoint" prompt="vmReceiverAccessPoint?" promptNeeded="false" type="id_String" value="vm:receiver"/>
+  <contextParameter comment="" name="minaReceiver" prompt="minaReceiver?" promptNeeded="false" type="id_String" value="vm:minaReceiver"/>
+  <contextParameter comment="" name="minaReceiverAccessPoint" prompt="minaReceiverAccessPoint?" promptNeeded="false" type="id_String" value="vm:minaReceiver"/>
+</talendfile:ContextType>

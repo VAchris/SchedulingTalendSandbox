@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_QFbgsxEfEeKT_OvCFC8tAQ" comment="connectionComment" label="connectionLabel" dataPackage="_QFbgtBEfEeKT_OvCFC8tAQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_QFbgtBEfEeKT_OvCFC8tAQ" dataManager="_QFbgsxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_QFbgtREfEeKT_OvCFC8tAQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgthEfEeKT_OvCFC8tAQ" name="BILL_TO_ID" id="369" label="BILL_TO_ID" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgtxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbguBEfEeKT_OvCFC8tAQ" name="CUSTOMER_ID" id="370" label="CUSTOMER_ID" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbguREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbguhEfEeKT_OvCFC8tAQ" name="CUSTOMER_TIER_ID" id="371" label="CUSTOMER_TIER_ID" length="30" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbguxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgvBEfEeKT_OvCFC8tAQ" name="CUSTOMER_CLASS" id="372" label="CUSTOMER_CLASS" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgvREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgvhEfEeKT_OvCFC8tAQ" name="CUSTOMER_SUBCLASS" id="373" label="CUSTOMER_SUBCLASS" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgvxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgwBEfEeKT_OvCFC8tAQ" name="PROS_DATALOAD_TIME" id="374" label="PROS_DATALOAD_TIME" length="19" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_QFbgwREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgwhEfEeKT_OvCFC8tAQ" name="ATT_BILL_TO_STATE" id="375" label="ATT_BILL_TO_STATE" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgwxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgxBEfEeKT_OvCFC8tAQ" name="ATT_CUSTOMER_CLASS" id="376" label="ATT_CUSTOMER_CLASS" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgxREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgxhEfEeKT_OvCFC8tAQ" name="ATT_CONTRACT_CUSTOMER" id="377" label="ATT_CONTRACT_CUSTOMER" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgxxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgyBEfEeKT_OvCFC8tAQ" name="ATT_CUSTOMER_REVENUE" id="378" label="ATT_CUSTOMER_REVENUE" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgyREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgyhEfEeKT_OvCFC8tAQ" name="ATT_CUSTOMER_TIER" id="379" label="ATT_CUSTOMER_TIER" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgyxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgzBEfEeKT_OvCFC8tAQ" name="CUSTOMER_SEGMENT" id="380" label="CUSTOMER_SEGMENT" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgzREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbgzhEfEeKT_OvCFC8tAQ" name="PRICING_AREA_ID" id="381" label="PRICING_AREA_ID" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbgzxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbg0BEfEeKT_OvCFC8tAQ" name="PARTNER_ROLE" id="382" label="PARTNER_ROLE" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbg0REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbg0hEfEeKT_OvCFC8tAQ" name="PARTNER_CUSTOMER_ID" id="383" label="PARTNER_CUSTOMER_ID" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbg0xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbg1BEfEeKT_OvCFC8tAQ" name="DEFAULT_INDICATOR" id="384" label="DEFAULT_INDICATOR" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbg1REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbg1hEfEeKT_OvCFC8tAQ" name="VKORG" id="385" label="VKORG" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbg1xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbg2BEfEeKT_OvCFC8tAQ" name="REQUEST" id="386" label="REQUEST" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbg2REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbg2hEfEeKT_OvCFC8tAQ" name="CURRENCY_CODE" id="387" label="CURRENCY_CODE" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbg2xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QFbg3BEfEeKT_OvCFC8tAQ" name="Column19" id="388" label="Column19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QFbg3REfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

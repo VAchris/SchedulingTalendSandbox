@@ -1,0 +1,28 @@
+package beans;
+
+import org.apache.camel.CamelContext;
+import org.springframework.context.ApplicationContext;
+
+public class TalendContainer {
+
+	private CamelContext camelContext;
+	private ApplicationContext applicationContext;
+
+	public TalendContainer(CamelContext camelContext, String[] springContextFiles, String springCamelContextName) {
+		this.camelContext = CamelUtil.loadSpring(camelContext, springContextFiles, springCamelContextName);
+	}
+
+	public CamelContext getCamelContext() {
+		return camelContext;
+	}
+
+	public ApplicationContext getApplicationContext() {
+		if (this.applicationContext == null) {
+		    // get a handle on the Spring Context from the camelContext using the Talend container convention
+			com.talend.demo.spring.util.ContextHandle contextHandle = camelContext.getRegistry().lookup("contextHandle", com.talend.demo.spring.util.ContextHandle.class);
+			this.applicationContext = contextHandle.getApplicationContext();
+		}
+		return applicationContext;
+	}
+
+}

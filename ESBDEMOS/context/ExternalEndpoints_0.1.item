@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType confirmationNeeded="false" name="c0">
+    <contextParameter comment="" name="minaServiceEndpoint" prompt="minaServiceEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8990?textline=true&amp;sync=true"/>
+    <contextParameter comment="" name="minaClientEndpoint" prompt="minaClientEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8990?textline=true&amp;sync=true"/>
+    <contextParameter comment="" name="cxfServiceEndpoint" prompt="cxfServiceEndpoint?" promptNeeded="false" type="id_String" value="http://localhost:8980/helloWorld"/>
+    <contextParameter comment="" name="cxfClientEndpoint" prompt="cxfClientEndpoint?" promptNeeded="false" type="id_String" value="http://localhost:8980/helloWorld"/>
+    <contextParameter comment="" name="jmsClientEndpoint" prompt="jmsClientEndpoint?" promptNeeded="false" type="id_String" value="helloWorld"/>
+    <contextParameter comment="" name="jmsServiceEndpoint" prompt="jmsServiceEndpoint?" promptNeeded="false" type="id_String" value="helloWorld"/>
+    <contextParameter comment="" name="minaSenderEndpoint" prompt="minaSenderEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8970?textline=true&amp;sync=false"/>
+    <contextParameter comment="" name="minaReceiverEndpoint" prompt="minaReceiverEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8970?textline=true&amp;sync=false"/>
+    <contextParameter comment="" name="vmSenderEndpoint" prompt="vmSenderEndpoint?" promptNeeded="false" type="id_String" value="vm:channel"/>
+    <contextParameter comment="" name="vmReceiverEndpoint" prompt="vmReceiverEndpoint?" promptNeeded="false" type="id_String" value="vm:channel"/>
+    <contextParameter comment="" name="vmClientEndpoint" prompt="vmClientEndpoint?" promptNeeded="false" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter comment="" name="vmServiceEndpoint" prompt="vmServiceEndpoint?" promptNeeded="false" type="id_String" value="vm:requestReplyChannel"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="c1">
+    <contextParameter comment="" name="minaServiceEndpoint" prompt="minaServiceEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8991?textline=true&amp;sync=true"/>
+    <contextParameter comment="" name="minaClientEndpoint" prompt="minaClientEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8991?textline=true&amp;sync=true"/>
+    <contextParameter comment="" name="cxfServiceEndpoint" prompt="cxfServiceEndpoint?" promptNeeded="false" type="id_String" value="http://localhost:8981/helloWorld"/>
+    <contextParameter comment="" name="cxfClientEndpoint" prompt="cxfClientEndpoint?" promptNeeded="false" type="id_String" value="http://localhost:8981/helloWorld"/>
+    <contextParameter comment="" name="jmsClientEndpoint" prompt="jmsClientEndpoint?" promptNeeded="false" type="id_String" value="helloWorld"/>
+    <contextParameter comment="" name="jmsServiceEndpoint" prompt="jmsServiceEndpoint?" promptNeeded="false" type="id_String" value="helloWorld"/>
+    <contextParameter comment="" name="minaSenderEndpoint" prompt="minaSenderEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8971?textline=true&amp;sync=false"/>
+    <contextParameter comment="" name="minaReceiverEndpoint" prompt="minaReceiverEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8971?textline=true&amp;sync=false"/>
+    <contextParameter comment="" name="vmSenderEndpoint" prompt="vmSenderEndpoint?" promptNeeded="false" type="id_String" value="vm:channel"/>
+    <contextParameter comment="" name="vmReceiverEndpoint" prompt="vmReceiverEndpoint?" promptNeeded="false" type="id_String" value="vm:channel"/>
+    <contextParameter comment="" name="vmClientEndpoint" prompt="vmClientEndpoint?" promptNeeded="false" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter comment="" name="vmServiceEndpoint" prompt="vmServiceEndpoint?" promptNeeded="false" type="id_String" value="vm:requestReplyChannel"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="minaServiceEndpoint" prompt="minaServiceEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8999?textline=true&amp;sync=true"/>
+    <contextParameter comment="" name="minaClientEndpoint" prompt="minaClientEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8999?textline=true&amp;sync=true"/>
+    <contextParameter comment="" name="cxfServiceEndpoint" prompt="cxfServiceEndpoint?" promptNeeded="false" type="id_String" value="http://localhost:8989/helloWorld"/>
+    <contextParameter comment="" name="cxfClientEndpoint" prompt="cxfClientEndpoint?" promptNeeded="false" type="id_String" value="http://localhost:8989/helloWorld"/>
+    <contextParameter comment="" name="jmsClientEndpoint" prompt="jmsClientEndpoint?" promptNeeded="false" type="id_String" value="helloWorld"/>
+    <contextParameter comment="" name="jmsServiceEndpoint" prompt="jmsServiceEndpoint?" promptNeeded="false" type="id_String" value="helloWorld"/>
+    <contextParameter comment="" name="minaSenderEndpoint" prompt="minaSenderEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8979?textline=true&amp;sync=false"/>
+    <contextParameter comment="" name="minaReceiverEndpoint" prompt="minaReceiverEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8979?textline=true&amp;sync=false"/>
+    <contextParameter comment="" name="vmSenderEndpoint" prompt="vmSenderEndpoint?" promptNeeded="false" type="id_String" value="vm:channel"/>
+    <contextParameter comment="" name="vmReceiverEndpoint" prompt="vmReceiverEndpoint?" promptNeeded="false" type="id_String" value="vm:channel"/>
+    <contextParameter comment="" name="vmClientEndpoint" prompt="vmClientEndpoint?" promptNeeded="false" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter comment="" name="vmServiceEndpoint" prompt="vmServiceEndpoint?" promptNeeded="false" type="id_String" value="vm:requestReplyChannel"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="test">
+    <contextParameter comment="" name="minaServiceEndpoint" prompt="minaServiceEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8998?textline=true&amp;sync=true"/>
+    <contextParameter comment="" name="minaClientEndpoint" prompt="minaClientEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8998?textline=true&amp;sync=true"/>
+    <contextParameter comment="" name="cxfServiceEndpoint" prompt="cxfServiceEndpoint?" promptNeeded="false" type="id_String" value="http://localhost:8988/helloWorld"/>
+    <contextParameter comment="" name="cxfClientEndpoint" prompt="cxfClientEndpoint?" promptNeeded="false" type="id_String" value="http://localhost:8988/helloWorld"/>
+    <contextParameter comment="" name="jmsClientEndpoint" prompt="jmsClientEndpoint?" promptNeeded="false" type="id_String" value="helloWorld"/>
+    <contextParameter comment="" name="jmsServiceEndpoint" prompt="jmsServiceEndpoint?" promptNeeded="false" type="id_String" value="helloWorld"/>
+    <contextParameter comment="" name="minaSenderEndpoint" prompt="minaSenderEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8978?textline=true&amp;sync=false"/>
+    <contextParameter comment="" name="minaReceiverEndpoint" prompt="minaReceiverEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8978?textline=true&amp;sync=false"/>
+    <contextParameter comment="" name="vmSenderEndpoint" prompt="vmSenderEndpoint?" promptNeeded="false" type="id_String" value="vm:channel"/>
+    <contextParameter comment="" name="vmReceiverEndpoint" prompt="vmReceiverEndpoint?" promptNeeded="false" type="id_String" value="vm:channel"/>
+    <contextParameter comment="" name="vmClientEndpoint" prompt="vmClientEndpoint?" promptNeeded="false" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter comment="" name="vmServiceEndpoint" prompt="vmServiceEndpoint?" promptNeeded="false" type="id_String" value="vm:requestReplyChannel"/>
+  </talendfile:ContextType>
+</xmi:XMI>

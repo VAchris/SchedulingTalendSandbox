@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Oloh4xEfEeKT_OvCFC8tAQ" comment="connectionComment" label="connectionLabel" dataPackage="_Oloh5BEfEeKT_OvCFC8tAQ" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_Oloh5BEfEeKT_OvCFC8tAQ" dataManager="_Oloh4xEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Oloh5REfEeKT_OvCFC8tAQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oloh5hEfEeKT_OvCFC8tAQ" name="Mode" id="10453" label="Mode" sourceType="INT" talendType="id_Long" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_Oloh5xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oloh6BEfEeKT_OvCFC8tAQ" name="Operator" id="10454" label="Operator" sourceType="INT" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_Oloh6REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oloh6hEfEeKT_OvCFC8tAQ" name="starttime" id="10455" label="starttime" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_Oloh6xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oloh7BEfEeKT_OvCFC8tAQ" name="endtime" id="10456" label="endtime" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_Oloh7REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oloh7hEfEeKT_OvCFC8tAQ" name="station" id="10457" label="station" sourceType="INT" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_Oloh7xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oloh8BEfEeKT_OvCFC8tAQ" name="measurementValue" id="10458" label="measurementValue" length="8" sourceType="DOUBLE" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_Oloh8REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oloh8hEfEeKT_OvCFC8tAQ" name="property" id="10459" label="property" length="45" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_Oloh8xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

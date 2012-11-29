@@ -1,0 +1,18 @@
+package beans;
+
+public class HelloWorldImpl {
+
+    public String helloExample(String message) {
+        String result = "Hello " + message;
+        System.out.println(result);
+        return result;
+    }
+
+    public String sayHi(String name) {
+    	return "Hi " + name;
+    }
+
+    public String introduce(String oldPerson, String newPerson) {
+    	return oldPerson + ", I would like to introduce " + newPerson;
+    }
+}

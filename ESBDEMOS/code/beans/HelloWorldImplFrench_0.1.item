@@ -1,0 +1,18 @@
+package beans;
+
+public class HelloWorldImplFrench {
+
+    public String helloExample(String message) {
+        String result = "Bonjour " + message;
+        System.out.println(result);
+        return result;
+    }
+
+    public String sayHi(String name) {
+    	return "Salut " + name;
+    }
+
+    public String introduce(String oldPerson, String newPerson) {
+    	return oldPerson + ", Je tiens à vous présenter " + newPerson;
+    }
+}

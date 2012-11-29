@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Pw0eYDQYEeKKRr0-N0AzRA" name="CIE" label="CIE" dataPackage="_mrbRmjQbEeKKRr0-N0AzRA" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/cie?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="tadmin" Password="uMpMBF7WaNY=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="cie" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_YekU1P5mEeG5q5QF5Lsvgg" tag="Using URL" value="jdbc:mysql://localhost:3306/cie?noDatetimeStringSync=true"/>
+    <taggedValue xmi:id="_YekU1f5mEeG5q5QF5Lsvgg" tag="Status" value=""/>
+    <taggedValue xmi:id="_YekU1v5mEeG5q5QF5Lsvgg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_YekU1_5mEeG5q5QF5Lsvgg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_YekU2P5mEeG5q5QF5Lsvgg" tag="Description" value=""/>
+    <taggedValue xmi:id="_YekU2f5mEeG5q5QF5Lsvgg" tag="Author" value=""/>
+    <taggedValue xmi:id="_YekU2v5mEeG5q5QF5Lsvgg" tag="otherParameter" value=""/>
+    <taggedValue xmi:id="_YekU2_5mEeG5q5QF5Lsvgg" tag="DB IdentifierQuoteString" value="`"/>
+    <queries xmi:id="_YekU3P5mEeG5q5QF5Lsvgg">
+      <query xmi:id="_YekU3f5mEeG5q5QF5Lsvgg" id="_3xws0mrrEeGtRNNyIWdLSw" label="testquery" value="select addresses.sysid,addresses.addressId,addresses.phone,addresses.email,addresses.street,addresses.city,addresses.state,addresses.zip,customers.sysid,customers.customerId,customers.addressId,customers.lastName,customers.firstName &#xA;from addresses,customers &#xA;where addresses.addressId=customers.addressId;&#xA;"/>
+    </queries>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_mrbRmjQbEeKKRr0-N0AzRA" name="cie" dataManager="_Pw0eYDQYEeKKRr0-N0AzRA"/>
+</xmi:XMI>

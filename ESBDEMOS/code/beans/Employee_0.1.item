@@ -1,0 +1,165 @@
+package beans;
+
+public class Employee {
+
+	private String employeeId;
+	public String getEmployeeId() {
+		return employeeId;
+	}
+
+	public void setEmployeeId(String employeeId) {
+		this.employeeId = employeeId;
+	}
+
+	public String getSalutation() {
+		return salutation;
+	}
+
+	public void setSalutation(String salutation) {
+		this.salutation = salutation;
+	}
+
+	public String getForename() {
+		return forename;
+	}
+
+	public void setForename(String forename) {
+		this.forename = forename;
+	}
+
+	public String getSurname() {
+		return surname;
+	}
+
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+
+	public String getAddress1() {
+		return address1;
+	}
+
+	public void setAddress1(String address1) {
+		this.address1 = address1;
+	}
+
+	public String getAddress2() {
+		return address2;
+	}
+
+	public void setAddress2(String address2) {
+		this.address2 = address2;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getPostalCode() {
+		return postalCode;
+	}
+
+	public void setPostalCode(String postalCode) {
+		this.postalCode = postalCode;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public String getNationality() {
+		return nationality;
+	}
+
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+
+	public String getDateOfBirth() {
+		return dateOfBirth;
+	}
+
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getTelephone1() {
+		return telephone1;
+	}
+
+	public void setTelephone1(String telephone1) {
+		this.telephone1 = telephone1;
+	}
+
+	public String getTelephone2() {
+		return telephone2;
+	}
+
+	public void setTelephone2(String telephone2) {
+		this.telephone2 = telephone2;
+	}
+
+	private String salutation;
+	private String forename;
+	private String surname;
+	private String address1;
+	private String address2;
+	private String city;
+	private String postalCode;
+	private String country;
+	private String nationality;
+	private String dateOfBirth;
+	private String email;
+	private String telephone1;
+	private String telephone2;
+	
+    public Employee () {
+    }
+
+	public Employee(String employeeId, String forename, String surname) {
+		super();
+		this.employeeId = employeeId;
+		this.forename = forename;
+		this.surname = surname;
+	}
+    
+	public Employee(String employeeId, String salutation, String forename,
+			String surname, String address1, String address2, String city,
+			String postalCode, String country, String nationality,
+			String dateOfBirth, String email, String telephone1,
+			String telephone2) {
+		super();
+		this.employeeId = employeeId;
+		this.salutation = salutation;
+		this.forename = forename;
+		this.surname = surname;
+		this.address1 = address1;
+		this.address2 = address2;
+		this.city = city;
+		this.postalCode = postalCode;
+		this.country = country;
+		this.nationality = nationality;
+		this.dateOfBirth = dateOfBirth;
+		this.email = email;
+		this.telephone1 = telephone1;
+		this.telephone2 = telephone2;
+	}
+    
+    
+}

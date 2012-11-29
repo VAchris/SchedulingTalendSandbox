@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_RDS3IxEfEeKT_OvCFC8tAQ" name="repository.metadataFileXml" dataPackage="_RDS3JxEfEeKT_OvCFC8tAQ" XmlFilePath="C:/talend/install/TOS_DI-Win32-r74687-V5.0.1/workspace/SigmaProbe_00B93542-381B-2E87-C3E6-CF4AE8E6D997v2.xml" Encoding="UTF-8">
+    <schema xmi:id="_RDS3JBEfEeKT_OvCFC8tAQ" LimitBoucle="50" AbsoluteXPathQuery="/UnitReport/Property/ValueString">
+      <schemaTargets xmi:id="_RDS3JREfEeKT_OvCFC8tAQ" RelativeXPathQuery="." TagName="propertyvalue"/>
+      <schemaTargets xmi:id="_RDS3JhEfEeKT_OvCFC8tAQ" RelativeXPathQuery="@name" TagName="propertyname"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RDS3JxEfEeKT_OvCFC8tAQ" name="repository.metadataFileXml" dataManager="_RDS3IxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RDS3KBEfEeKT_OvCFC8tAQ" id="_V4XsMFaBEeGr9fumxTJnrA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RDS3KREfEeKT_OvCFC8tAQ" label="propertyvalue" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_RDS3KhEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RDS3KxEfEeKT_OvCFC8tAQ" label="propertyname" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_RDS3LBEfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

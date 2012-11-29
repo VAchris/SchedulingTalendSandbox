@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Mb1j0xEfEeKT_OvCFC8tAQ" dataPackage="_Mb1j1BEfEeKT_OvCFC8tAQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_Mb1j1BEfEeKT_OvCFC8tAQ" dataManager="_Mb1j0xEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Mb1j1REfEeKT_OvCFC8tAQ" id="_SpnDoL0rEeGRg-J-E9Lfjw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mb1j1hEfEeKT_OvCFC8tAQ" name="addressId" label="addressId" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_Mb1j1xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mb1j2BEfEeKT_OvCFC8tAQ" name="accountId" label="accountId" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_Mb1j2REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mb1j2hEfEeKT_OvCFC8tAQ" name="billingStreet" label="billingStreet" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Mb1j2xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mb1j3BEfEeKT_OvCFC8tAQ" name="billingCity" label="billingCity" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Mb1j3REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mb1j3hEfEeKT_OvCFC8tAQ" name="billingState_Province" label="billingState_Province" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Mb1j3xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mb1j4BEfEeKT_OvCFC8tAQ" name="billingZip_PostalCode" label="billingZip_PostalCode" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Mb1j4REfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mb1j4hEfEeKT_OvCFC8tAQ" name="billCountry" label="billCountry" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Mb1j4xEfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

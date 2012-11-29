@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_7C79Q_5lEeG5q5QF5Lsvgg" defaultContext="Default" screenshot="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">
+  <context xmi:id="_7C79RP5lEeG5q5QF5Lsvgg" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_7C79Rf5lEeG5q5QF5Lsvgg" comment="" name="minaProxyEndpoint" prompt="minaProxyEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8100?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C79Rv5lEeG5q5QF5Lsvgg" comment="" name="cxfClientEndpoint" prompt="cxfClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="http://localhost:8989/helloWorld"/>
+    <contextParameter xmi:id="_7C79R_5lEeG5q5QF5Lsvgg" comment="" name="cxfServiceEndpoint" prompt="cxfServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="http://localhost:8989/helloWorld"/>
+    <contextParameter xmi:id="_7C79SP5lEeG5q5QF5Lsvgg" comment="" name="jmsClientEndpoint" prompt="jmsClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="helloWorld"/>
+    <contextParameter xmi:id="_7C79Sf5lEeG5q5QF5Lsvgg" comment="" name="jmsServiceEndpoint" prompt="jmsServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="helloWorld"/>
+    <contextParameter xmi:id="_7C79Sv5lEeG5q5QF5Lsvgg" comment="" name="minaClientEndpoint" prompt="minaClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8999?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C79S_5lEeG5q5QF5Lsvgg" comment="" name="minaReceiverEndpoint" prompt="minaReceiverEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8979?textline=true&amp;sync=false"/>
+    <contextParameter xmi:id="_7C79TP5lEeG5q5QF5Lsvgg" comment="" name="minaSenderEndpoint" prompt="minaSenderEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8979?textline=true&amp;sync=false"/>
+    <contextParameter xmi:id="_7C79Tf5lEeG5q5QF5Lsvgg" comment="" name="minaServiceEndpoint" prompt="minaServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8999?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C79Tv5lEeG5q5QF5Lsvgg" comment="" name="vmClientEndpoint" prompt="vmClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter xmi:id="_7C79T_5lEeG5q5QF5Lsvgg" comment="" name="vmReceiverEndpoint" prompt="vmReceiverEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:channel"/>
+    <contextParameter xmi:id="_7C79UP5lEeG5q5QF5Lsvgg" comment="" name="vmSenderEndpoint" prompt="vmSenderEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:channel"/>
+    <contextParameter xmi:id="_7C79Uf5lEeG5q5QF5Lsvgg" comment="" name="vmServiceEndpoint" prompt="vmServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter xmi:id="_7C79Uv5lEeG5q5QF5Lsvgg" comment="" name="cxfClient" prompt="cxfClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:cxfClient"/>
+    <contextParameter xmi:id="_7C79U_5lEeG5q5QF5Lsvgg" comment="" name="cxfClientAccessPoint" prompt="cxfClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:cxfClient"/>
+    <contextParameter xmi:id="_7C79VP5lEeG5q5QF5Lsvgg" comment="" name="jmsClient" prompt="jmsClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:jmsClient"/>
+    <contextParameter xmi:id="_7C79Vf5lEeG5q5QF5Lsvgg" comment="" name="jmsClientAccessPoint" prompt="jmsClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:jmsClient"/>
+    <contextParameter xmi:id="_7C79Vv5lEeG5q5QF5Lsvgg" comment="routes to minaAccessPoint" name="minaClient" prompt="minaClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaClient"/>
+    <contextParameter xmi:id="_7C79V_5lEeG5q5QF5Lsvgg" comment="routes to EXTERNAL clientMinaEndpoint" name="minaClientAccessPoint" prompt="minaAccessPoint" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaClient"/>
+    <contextParameter xmi:id="_7C79WP5lEeG5q5QF5Lsvgg" comment="" name="minaReceiver" prompt="minaReceiver?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaReceiver"/>
+    <contextParameter xmi:id="_7C79Wf5lEeG5q5QF5Lsvgg" comment="" name="minaReceiverAccessPoint" prompt="minaReceiverAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaReceiver"/>
+    <contextParameter xmi:id="_7C79Wv5lEeG5q5QF5Lsvgg" comment="" name="minaSender" prompt="minaSender?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaSender"/>
+    <contextParameter xmi:id="_7C79W_5lEeG5q5QF5Lsvgg" comment="" name="minaSenderAccessPoint" prompt="minaSenderAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaSender"/>
+    <contextParameter xmi:id="_7C79XP5lEeG5q5QF5Lsvgg" comment="" name="operationName" prompt="operationName?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="helloExample"/>
+    <contextParameter xmi:id="_7C8kUP5lEeG5q5QF5Lsvgg" comment="The fully qualified name of the service class, e.g. my.package.MyClass" name="serviceImpl" prompt="serviceImpl?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter xmi:id="_7C8kUf5lEeG5q5QF5Lsvgg" comment="" name="serviceImplMethod" prompt="serviceImplMethod?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="helloExample"/>
+    <contextParameter xmi:id="_7C8kUv5lEeG5q5QF5Lsvgg" comment="routes to ClientAccessPoint" name="vmClient" prompt="vmClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorldClient"/>
+    <contextParameter xmi:id="_7C8kU_5lEeG5q5QF5Lsvgg" comment="routes to serviceAccessPoint" name="vmClientAccessPoint" prompt="vmClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorldClient"/>
+    <contextParameter xmi:id="_7C8kVP5lEeG5q5QF5Lsvgg" comment="" name="vmReceiver" prompt="vmReceiver?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:receiver"/>
+    <contextParameter xmi:id="_7C8kVf5lEeG5q5QF5Lsvgg" comment="" name="vmReceiverAccessPoint" prompt="vmReceiverAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:receiver"/>
+    <contextParameter xmi:id="_7C8kVv5lEeG5q5QF5Lsvgg" comment="" name="vmSender" prompt="vmSender?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:sender"/>
+    <contextParameter xmi:id="_7C8kV_5lEeG5q5QF5Lsvgg" comment="" name="vmSenderAccessPoint" prompt="vmSenderAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:sender"/>
+    <contextParameter xmi:id="_7C8kWP5lEeG5q5QF5Lsvgg" comment="routes to serviceImpl" name="vmService" prompt="vmService?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorld"/>
+    <contextParameter xmi:id="_7C8kWf5lEeG5q5QF5Lsvgg" comment="routes to service" name="vmServiceAccessPoint" prompt="vmServiceAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorld"/>
+  </context>
+  <context xmi:id="_7C8kWv5lEeG5q5QF5Lsvgg" confirmationNeeded="false" name="c1">
+    <contextParameter xmi:id="_7C8kW_5lEeG5q5QF5Lsvgg" comment="" name="minaProxyEndpoint" prompt="minaProxyEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8100?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C8kXP5lEeG5q5QF5Lsvgg" comment="" name="cxfClientEndpoint" prompt="cxfClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="http://localhost:8981/helloWorld"/>
+    <contextParameter xmi:id="_7C8kXf5lEeG5q5QF5Lsvgg" comment="" name="cxfServiceEndpoint" prompt="cxfServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="http://localhost:8981/helloWorld"/>
+    <contextParameter xmi:id="_7C8kXv5lEeG5q5QF5Lsvgg" comment="" name="jmsClientEndpoint" prompt="jmsClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="helloWorld"/>
+    <contextParameter xmi:id="_7C8kX_5lEeG5q5QF5Lsvgg" comment="" name="jmsServiceEndpoint" prompt="jmsServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="helloWorld"/>
+    <contextParameter xmi:id="_7C8kYP5lEeG5q5QF5Lsvgg" comment="" name="minaClientEndpoint" prompt="minaClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8991?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C8kYf5lEeG5q5QF5Lsvgg" comment="" name="minaReceiverEndpoint" prompt="minaReceiverEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8971?textline=true&amp;sync=false"/>
+    <contextParameter xmi:id="_7C8kYv5lEeG5q5QF5Lsvgg" comment="" name="minaSenderEndpoint" prompt="minaSenderEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8971?textline=true&amp;sync=false"/>
+    <contextParameter xmi:id="_7C8kY_5lEeG5q5QF5Lsvgg" comment="" name="minaServiceEndpoint" prompt="minaServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8991?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C8kZP5lEeG5q5QF5Lsvgg" comment="" name="vmClientEndpoint" prompt="vmClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter xmi:id="_7C8kZf5lEeG5q5QF5Lsvgg" comment="" name="vmReceiverEndpoint" prompt="vmReceiverEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:channel"/>
+    <contextParameter xmi:id="_7C8kZv5lEeG5q5QF5Lsvgg" comment="" name="vmSenderEndpoint" prompt="vmSenderEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:channel"/>
+    <contextParameter xmi:id="_7C8kZ_5lEeG5q5QF5Lsvgg" comment="" name="vmServiceEndpoint" prompt="vmServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter xmi:id="_7C8kaP5lEeG5q5QF5Lsvgg" comment="" name="cxfClient" prompt="cxfClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:cxfClient"/>
+    <contextParameter xmi:id="_7C8kaf5lEeG5q5QF5Lsvgg" comment="" name="cxfClientAccessPoint" prompt="cxfClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:cxfClient"/>
+    <contextParameter xmi:id="_7C8kav5lEeG5q5QF5Lsvgg" comment="" name="jmsClient" prompt="jmsClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:jmsClient"/>
+    <contextParameter xmi:id="_7C8ka_5lEeG5q5QF5Lsvgg" comment="" name="jmsClientAccessPoint" prompt="jmsClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:jmsClient"/>
+    <contextParameter xmi:id="_7C8kbP5lEeG5q5QF5Lsvgg" comment="routes to minaAccessPoint" name="minaClient" prompt="minaClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaClient"/>
+    <contextParameter xmi:id="_7C8kbf5lEeG5q5QF5Lsvgg" comment="routes to EXTERNAL clientMinaEndpoint" name="minaClientAccessPoint" prompt="minaAccessPoint" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaClient"/>
+    <contextParameter xmi:id="_7C8kbv5lEeG5q5QF5Lsvgg" comment="" name="minaReceiver" prompt="minaReceiver?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaReceiver"/>
+    <contextParameter xmi:id="_7C8kb_5lEeG5q5QF5Lsvgg" comment="" name="minaReceiverAccessPoint" prompt="minaReceiverAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaReceiver"/>
+    <contextParameter xmi:id="_7C8kcP5lEeG5q5QF5Lsvgg" comment="" name="minaSender" prompt="minaSender?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaSender"/>
+    <contextParameter xmi:id="_7C8kcf5lEeG5q5QF5Lsvgg" comment="" name="minaSenderAccessPoint" prompt="minaSenderAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaSender"/>
+    <contextParameter xmi:id="_7C8kcv5lEeG5q5QF5Lsvgg" comment="" name="operationName" prompt="operationName?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="helloExample"/>
+    <contextParameter xmi:id="_7C8kc_5lEeG5q5QF5Lsvgg" comment="The fully qualified name of the service class, e.g. my.package.MyClass" name="serviceImpl" prompt="serviceImpl?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter xmi:id="_7C8kdP5lEeG5q5QF5Lsvgg" comment="" name="serviceImplMethod" prompt="serviceImplMethod?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="helloExample"/>
+    <contextParameter xmi:id="_7C8kdf5lEeG5q5QF5Lsvgg" comment="routes to ClientAccessPoint" name="vmClient" prompt="vmClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorldClient"/>
+    <contextParameter xmi:id="_7C8kdv5lEeG5q5QF5Lsvgg" comment="routes to serviceAccessPoint" name="vmClientAccessPoint" prompt="vmClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorldClient"/>
+    <contextParameter xmi:id="_7C8kd_5lEeG5q5QF5Lsvgg" comment="" name="vmReceiver" prompt="vmReceiver?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:receiver"/>
+    <contextParameter xmi:id="_7C8keP5lEeG5q5QF5Lsvgg" comment="" name="vmReceiverAccessPoint" prompt="vmReceiverAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:receiver"/>
+    <contextParameter xmi:id="_7C8kef5lEeG5q5QF5Lsvgg" comment="" name="vmSender" prompt="vmSender?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:sender"/>
+    <contextParameter xmi:id="_7C8kev5lEeG5q5QF5Lsvgg" comment="" name="vmSenderAccessPoint" prompt="vmSenderAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:sender"/>
+    <contextParameter xmi:id="_7C8ke_5lEeG5q5QF5Lsvgg" comment="routes to serviceImpl" name="vmService" prompt="vmService?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorld"/>
+    <contextParameter xmi:id="_7C8kfP5lEeG5q5QF5Lsvgg" comment="routes to service" name="vmServiceAccessPoint" prompt="vmServiceAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorld"/>
+  </context>
+  <context xmi:id="_7C8kff5lEeG5q5QF5Lsvgg" confirmationNeeded="false" name="test">
+    <contextParameter xmi:id="_7C8kfv5lEeG5q5QF5Lsvgg" comment="" name="minaProxyEndpoint" prompt="minaProxyEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8100?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C8kf_5lEeG5q5QF5Lsvgg" comment="" name="cxfClientEndpoint" prompt="cxfClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="http://localhost:8988/helloWorld"/>
+    <contextParameter xmi:id="_7C8kgP5lEeG5q5QF5Lsvgg" comment="" name="cxfServiceEndpoint" prompt="cxfServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="http://localhost:8988/helloWorld"/>
+    <contextParameter xmi:id="_7C8kgf5lEeG5q5QF5Lsvgg" comment="" name="jmsClientEndpoint" prompt="jmsClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="helloWorld"/>
+    <contextParameter xmi:id="_7C8kgv5lEeG5q5QF5Lsvgg" comment="" name="jmsServiceEndpoint" prompt="jmsServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="helloWorld"/>
+    <contextParameter xmi:id="_7C8kg_5lEeG5q5QF5Lsvgg" comment="" name="minaClientEndpoint" prompt="minaClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8998?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C8khP5lEeG5q5QF5Lsvgg" comment="" name="minaReceiverEndpoint" prompt="minaReceiverEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8978?textline=true&amp;sync=false"/>
+    <contextParameter xmi:id="_7C8khf5lEeG5q5QF5Lsvgg" comment="" name="minaSenderEndpoint" prompt="minaSenderEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8978?textline=true&amp;sync=false"/>
+    <contextParameter xmi:id="_7C8khv5lEeG5q5QF5Lsvgg" comment="" name="minaServiceEndpoint" prompt="minaServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8998?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C8kh_5lEeG5q5QF5Lsvgg" comment="" name="vmClientEndpoint" prompt="vmClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter xmi:id="_7C8kiP5lEeG5q5QF5Lsvgg" comment="" name="vmReceiverEndpoint" prompt="vmReceiverEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:channel"/>
+    <contextParameter xmi:id="_7C8kif5lEeG5q5QF5Lsvgg" comment="" name="vmSenderEndpoint" prompt="vmSenderEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:channel"/>
+    <contextParameter xmi:id="_7C8kiv5lEeG5q5QF5Lsvgg" comment="" name="vmServiceEndpoint" prompt="vmServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter xmi:id="_7C8ki_5lEeG5q5QF5Lsvgg" comment="" name="cxfClient" prompt="cxfClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:cxfClient"/>
+    <contextParameter xmi:id="_7C8kjP5lEeG5q5QF5Lsvgg" comment="" name="cxfClientAccessPoint" prompt="cxfClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:cxfClient"/>
+    <contextParameter xmi:id="_7C8kjf5lEeG5q5QF5Lsvgg" comment="" name="jmsClient" prompt="jmsClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:jmsClient"/>
+    <contextParameter xmi:id="_7C8kjv5lEeG5q5QF5Lsvgg" comment="" name="jmsClientAccessPoint" prompt="jmsClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:jmsClient"/>
+    <contextParameter xmi:id="_7C8kj_5lEeG5q5QF5Lsvgg" comment="routes to minaAccessPoint" name="minaClient" prompt="minaClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaClient"/>
+    <contextParameter xmi:id="_7C8kkP5lEeG5q5QF5Lsvgg" comment="routes to EXTERNAL clientMinaEndpoint" name="minaClientAccessPoint" prompt="minaAccessPoint" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaClient"/>
+    <contextParameter xmi:id="_7C8kkf5lEeG5q5QF5Lsvgg" comment="" name="minaReceiver" prompt="minaReceiver?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaReceiver"/>
+    <contextParameter xmi:id="_7C8kkv5lEeG5q5QF5Lsvgg" comment="" name="minaReceiverAccessPoint" prompt="minaReceiverAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaReceiver"/>
+    <contextParameter xmi:id="_7C8kk_5lEeG5q5QF5Lsvgg" comment="" name="minaSender" prompt="minaSender?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaSender"/>
+    <contextParameter xmi:id="_7C8klP5lEeG5q5QF5Lsvgg" comment="" name="minaSenderAccessPoint" prompt="minaSenderAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaSender"/>
+    <contextParameter xmi:id="_7C8klf5lEeG5q5QF5Lsvgg" comment="" name="operationName" prompt="operationName?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="helloExample"/>
+    <contextParameter xmi:id="_7C8klv5lEeG5q5QF5Lsvgg" comment="The fully qualified name of the service class, e.g. my.package.MyClass" name="serviceImpl" prompt="serviceImpl?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter xmi:id="_7C8kl_5lEeG5q5QF5Lsvgg" comment="" name="serviceImplMethod" prompt="serviceImplMethod?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="helloExample"/>
+    <contextParameter xmi:id="_7C8kmP5lEeG5q5QF5Lsvgg" comment="routes to ClientAccessPoint" name="vmClient" prompt="vmClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorldClient"/>
+    <contextParameter xmi:id="_7C8kmf5lEeG5q5QF5Lsvgg" comment="routes to serviceAccessPoint" name="vmClientAccessPoint" prompt="vmClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorldClient"/>
+    <contextParameter xmi:id="_7C8kmv5lEeG5q5QF5Lsvgg" comment="" name="vmReceiver" prompt="vmReceiver?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:receiver"/>
+    <contextParameter xmi:id="_7C8km_5lEeG5q5QF5Lsvgg" comment="" name="vmReceiverAccessPoint" prompt="vmReceiverAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:receiver"/>
+    <contextParameter xmi:id="_7C8knP5lEeG5q5QF5Lsvgg" comment="" name="vmSender" prompt="vmSender?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:sender"/>
+    <contextParameter xmi:id="_7C8knf5lEeG5q5QF5Lsvgg" comment="" name="vmSenderAccessPoint" prompt="vmSenderAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:sender"/>
+    <contextParameter xmi:id="_7C8knv5lEeG5q5QF5Lsvgg" comment="routes to serviceImpl" name="vmService" prompt="vmService?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorld"/>
+    <contextParameter xmi:id="_7C8kn_5lEeG5q5QF5Lsvgg" comment="routes to service" name="vmServiceAccessPoint" prompt="vmServiceAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorld"/>
+  </context>
+  <context xmi:id="_7C8koP5lEeG5q5QF5Lsvgg" confirmationNeeded="false" name="c0">
+    <contextParameter xmi:id="_7C8kof5lEeG5q5QF5Lsvgg" comment="" name="minaProxyEndpoint" prompt="minaProxyEndpoint?" promptNeeded="false" type="id_String" value="mina:tcp://localhost:8100?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C8kov5lEeG5q5QF5Lsvgg" comment="" name="cxfClientEndpoint" prompt="cxfClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="http://localhost:8980/helloWorld"/>
+    <contextParameter xmi:id="_7C8ko_5lEeG5q5QF5Lsvgg" comment="" name="cxfServiceEndpoint" prompt="cxfServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="http://localhost:8980/helloWorld"/>
+    <contextParameter xmi:id="_7C8kpP5lEeG5q5QF5Lsvgg" comment="" name="jmsClientEndpoint" prompt="jmsClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="helloWorld"/>
+    <contextParameter xmi:id="_7C8kpf5lEeG5q5QF5Lsvgg" comment="" name="jmsServiceEndpoint" prompt="jmsServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="helloWorld"/>
+    <contextParameter xmi:id="_7C8kpv5lEeG5q5QF5Lsvgg" comment="" name="minaClientEndpoint" prompt="minaClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8990?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C8kp_5lEeG5q5QF5Lsvgg" comment="" name="minaReceiverEndpoint" prompt="minaReceiverEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8970?textline=true&amp;sync=false"/>
+    <contextParameter xmi:id="_7C8kqP5lEeG5q5QF5Lsvgg" comment="" name="minaSenderEndpoint" prompt="minaSenderEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8970?textline=true&amp;sync=false"/>
+    <contextParameter xmi:id="_7C8kqf5lEeG5q5QF5Lsvgg" comment="" name="minaServiceEndpoint" prompt="minaServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="mina:tcp://localhost:8990?textline=true&amp;sync=true"/>
+    <contextParameter xmi:id="_7C8kqv5lEeG5q5QF5Lsvgg" comment="" name="vmClientEndpoint" prompt="vmClientEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter xmi:id="_7C8kq_5lEeG5q5QF5Lsvgg" comment="" name="vmReceiverEndpoint" prompt="vmReceiverEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:channel"/>
+    <contextParameter xmi:id="_7C8krP5lEeG5q5QF5Lsvgg" comment="" name="vmSenderEndpoint" prompt="vmSenderEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:channel"/>
+    <contextParameter xmi:id="_7C8krf5lEeG5q5QF5Lsvgg" comment="" name="vmServiceEndpoint" prompt="vmServiceEndpoint?" promptNeeded="false" repositoryContextId="_yyZckG_dEeGbpY0mDDqu3A" type="id_String" value="vm:requestReplyChannel"/>
+    <contextParameter xmi:id="_7C8krv5lEeG5q5QF5Lsvgg" comment="" name="cxfClient" prompt="cxfClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:cxfClient"/>
+    <contextParameter xmi:id="_7C8kr_5lEeG5q5QF5Lsvgg" comment="" name="cxfClientAccessPoint" prompt="cxfClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:cxfClient"/>
+    <contextParameter xmi:id="_7C8ksP5lEeG5q5QF5Lsvgg" comment="" name="jmsClient" prompt="jmsClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:jmsClient"/>
+    <contextParameter xmi:id="_7C8ksf5lEeG5q5QF5Lsvgg" comment="" name="jmsClientAccessPoint" prompt="jmsClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:jmsClient"/>
+    <contextParameter xmi:id="_7C8ksv5lEeG5q5QF5Lsvgg" comment="routes to minaAccessPoint" name="minaClient" prompt="minaClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaClient"/>
+    <contextParameter xmi:id="_7C8ks_5lEeG5q5QF5Lsvgg" comment="routes to EXTERNAL clientMinaEndpoint" name="minaClientAccessPoint" prompt="minaAccessPoint" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaClient"/>
+    <contextParameter xmi:id="_7C8ktP5lEeG5q5QF5Lsvgg" comment="" name="minaReceiver" prompt="minaReceiver?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaReceiver"/>
+    <contextParameter xmi:id="_7C8ktf5lEeG5q5QF5Lsvgg" comment="" name="minaReceiverAccessPoint" prompt="minaReceiverAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaReceiver"/>
+    <contextParameter xmi:id="_7C8ktv5lEeG5q5QF5Lsvgg" comment="" name="minaSender" prompt="minaSender?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaSender"/>
+    <contextParameter xmi:id="_7C8kt_5lEeG5q5QF5Lsvgg" comment="" name="minaSenderAccessPoint" prompt="minaSenderAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:minaSender"/>
+    <contextParameter xmi:id="_7C8kuP5lEeG5q5QF5Lsvgg" comment="" name="operationName" prompt="operationName?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="helloExample"/>
+    <contextParameter xmi:id="_7C8kuf5lEeG5q5QF5Lsvgg" comment="The fully qualified name of the service class, e.g. my.package.MyClass" name="serviceImpl" prompt="serviceImpl?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="beans.HelloWorldImpl"/>
+    <contextParameter xmi:id="_7C8kuv5lEeG5q5QF5Lsvgg" comment="" name="serviceImplMethod" prompt="serviceImplMethod?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="helloExample"/>
+    <contextParameter xmi:id="_7C8ku_5lEeG5q5QF5Lsvgg" comment="routes to ClientAccessPoint" name="vmClient" prompt="vmClient?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorldClient"/>
+    <contextParameter xmi:id="_7C8kvP5lEeG5q5QF5Lsvgg" comment="routes to serviceAccessPoint" name="vmClientAccessPoint" prompt="vmClientAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorldClient"/>
+    <contextParameter xmi:id="_7C8kvf5lEeG5q5QF5Lsvgg" comment="" name="vmReceiver" prompt="vmReceiver?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:receiver"/>
+    <contextParameter xmi:id="_7C8kvv5lEeG5q5QF5Lsvgg" comment="" name="vmReceiverAccessPoint" prompt="vmReceiverAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:receiver"/>
+    <contextParameter xmi:id="_7C8kv_5lEeG5q5QF5Lsvgg" comment="" name="vmSender" prompt="vmSender?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:sender"/>
+    <contextParameter xmi:id="_7C8kwP5lEeG5q5QF5Lsvgg" comment="" name="vmSenderAccessPoint" prompt="vmSenderAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:sender"/>
+    <contextParameter xmi:id="_7C8kwf5lEeG5q5QF5Lsvgg" comment="routes to serviceImpl" name="vmService" prompt="vmService?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorld"/>
+    <contextParameter xmi:id="_7C8kwv5lEeG5q5QF5Lsvgg" comment="routes to service" name="vmServiceAccessPoint" prompt="vmServiceAccessPoint?" promptNeeded="false" repositoryContextId="_o1vmMG_dEeGbpY0mDDqu3A" type="id_String" value="vm:helloWorld"/>
+  </context>
+  <parameters xmi:id="_7C8kw_5lEeG5q5QF5Lsvgg">
+    <elementParameter xmi:id="_7C8kxP5lEeG5q5QF5Lsvgg" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter xmi:id="_7C8kxf5lEeG5q5QF5Lsvgg" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter xmi:id="_7C8kxv5lEeG5q5QF5Lsvgg" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter xmi:id="_7C8kx_5lEeG5q5QF5Lsvgg" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_7C8kyP5lEeG5q5QF5Lsvgg" field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter xmi:id="_7C8kyf5lEeG5q5QF5Lsvgg" field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
+    <routinesParameter xmi:id="_7C8kyv5lEeG5q5QF5Lsvgg" id="_VNoi0GIWEeGfO7GPYkJUUQ" name="DQTechnical"/>
+    <routinesParameter xmi:id="_7C8ky_5lEeG5q5QF5Lsvgg" id="_egw9QCn-EeGo7Z_hCcWhpg" name="DataOperation"/>
+    <routinesParameter xmi:id="_7C8kzP5lEeG5q5QF5Lsvgg" id="_VNL24GIWEeGfO7GPYkJUUQ" name="DataQuality"/>
+    <routinesParameter xmi:id="_7C8kzf5lEeG5q5QF5Lsvgg" id="_VNex0GIWEeGfO7GPYkJUUQ" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_7C8kzv5lEeG5q5QF5Lsvgg" id="_U7b_kGIWEeGfO7GPYkJUUQ" name="MDM"/>
+    <routinesParameter xmi:id="_7C8kz_5lEeG5q5QF5Lsvgg" id="_eivTMCn-EeGo7Z_hCcWhpg" name="Mathematical"/>
+    <routinesParameter xmi:id="_7C8k0P5lEeG5q5QF5Lsvgg" id="_ei32ECn-EeGo7Z_hCcWhpg" name="Numeric"/>
+    <routinesParameter xmi:id="_7C8k0f5lEeG5q5QF5Lsvgg" id="_ei9VoCn-EeGo7Z_hCcWhpg" name="Relational"/>
+    <routinesParameter xmi:id="_7C8k0v5lEeG5q5QF5Lsvgg" id="_ejikcCn-EeGo7Z_hCcWhpg" name="SQLike"/>
+    <routinesParameter xmi:id="_7C8k0_5lEeG5q5QF5Lsvgg" id="_ejEqYCn-EeGo7Z_hCcWhpg" name="StringHandling"/>
+    <routinesParameter xmi:id="_7C8k1P5lEeG5q5QF5Lsvgg" id="_ejNNQCn-EeGo7Z_hCcWhpg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_7C8k1f5lEeG5q5QF5Lsvgg" id="_ejT68Cn-EeGo7Z_hCcWhpg" name="TalendDate"/>
+    <routinesParameter xmi:id="_7C8k1v5lEeG5q5QF5Lsvgg" id="_ejbPsCn-EeGo7Z_hCcWhpg" name="TalendString"/>
+    <routinesParameter xmi:id="_7C8k1_5lEeG5q5QF5Lsvgg" id="_6gbegDwEEeGwENLmwg30ig" name="BasicHttpBinding_IRFPSoapServiceStub"/>
+    <routinesParameter xmi:id="_7C8k2P5lEeG5q5QF5Lsvgg" id="_6kJg4DwEEeGwENLmwg30ig" name="IRFPSoapService"/>
+    <routinesParameter xmi:id="_7C8k2f5lEeG5q5QF5Lsvgg" id="_6se9gDwEEeGwENLmwg30ig" name="RFPSoapServiceLocator"/>
+    <routinesParameter xmi:id="_7C8k2v5lEeG5q5QF5Lsvgg" id="_6rSqsDwEEeGwENLmwg30ig" name="RFPSoapService"/>
+    <routinesParameter xmi:id="_7C8k2_5lEeG5q5QF5Lsvgg" id="_6mPLkDwEEeGwENLmwg30ig" name="Result"/>
+    <routinesParameter xmi:id="_7C8k3P5lEeG5q5QF5Lsvgg" id="_6onKIDwEEeGwENLmwg30ig" name="RfpDemo"/>
+    <routinesParameter xmi:id="_7C8k3f5lEeG5q5QF5Lsvgg" id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter xmi:id="_7C8k3v5lEeG5q5QF5Lsvgg" id="_yz4bwDfhEeGqjsjkZ4pbfg" name="EverBank"/>
+    <routinesParameter xmi:id="_7C8k3_5lEeG5q5QF5Lsvgg" id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+  </parameters>
+  <node xmi:id="_7C8k4P5lEeG5q5QF5Lsvgg" componentName="cConfig" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="96">
+    <elementParameter xmi:id="_7C8k4f5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cConfig_1"/>
+    <elementParameter xmi:id="_7C8k4v5lEeG5q5QF5Lsvgg" field="MEMO_JAVA" name="CODE" value="&#xA;/*&#xA;*&#x9;Here you can put Java code that will be used within the route.&#xA;* &#xA;*   Usually you would register custom components in camelContext or&#xA;*   manipulate typeConverterRegistry.&#xA;*  &#xA;*   For example:&#xA;* &#xA;*     // Declaring a custom component in the Camel Context&#xA;*     camelContext.addComponent(&quot;component&quot;, new  org.apache.camel.component.dataset.DataSetComponent());&#xA;* &#xA;*     // Register a special type conversion &#xA;*     typeConverterRegistry.addTypeConverter(String.class, Object.class, new org.apache.camel.impl.converter.ToStringTypeConverter());&#xA;*/&#xA;"/>
+    <elementParameter xmi:id="_7C8k4_5lEeG5q5QF5Lsvgg" field="TABLE" name="DRIVER_JAR">
+      <elementValue xmi:id="_7C8k5P5lEeG5q5QF5Lsvgg" elementRef="JAR_NAME" value="camel-mina-alldep-2.8.4.jar"/>
+      <elementValue xmi:id="_7C8k5f5lEeG5q5QF5Lsvgg" elementRef="JAR_NAME" value="log4j-1.2.16.jar"/>
+      <elementValue xmi:id="_7C8k5v5lEeG5q5QF5Lsvgg" elementRef="JAR_NAME" value="log4j-properties.jar"/>
+    </elementParameter>
+    <elementParameter xmi:id="_7C8k5_5lEeG5q5QF5Lsvgg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_7C8k6P5lEeG5q5QF5Lsvgg" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_7C8k6f5lEeG5q5QF5Lsvgg" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_7C8k6v5lEeG5q5QF5Lsvgg" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_7C8k6_5lEeG5q5QF5Lsvgg" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="192">
+    <elementParameter xmi:id="_7C8k7P5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_13"/>
+    <elementParameter xmi:id="_7C8k7f5lEeG5q5QF5Lsvgg" field="CHECK" name="START" value="true"/>
+    <elementParameter xmi:id="_7C8k7v5lEeG5q5QF5Lsvgg" field="TEXT" name="URI" value="&quot;timer:testHelloWorldMina?delay=1000&amp;period=3000&quot;"/>
+    <elementParameter xmi:id="_7C8k7_5lEeG5q5QF5Lsvgg" field="TABLE" name="HOTLIBS"/>
+    <elementParameter xmi:id="_7C8k8P5lEeG5q5QF5Lsvgg" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_7C8k8f5lEeG5q5QF5Lsvgg" field="MODULE_LIST" name="LIBRARY" value=""/>
+    <elementParameter xmi:id="_7C8k8v5lEeG5q5QF5Lsvgg" field="TEXT" name="LABEL" value="testMina"/>
+    <elementParameter xmi:id="_7C8k8_5lEeG5q5QF5Lsvgg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_7C8k9P5lEeG5q5QF5Lsvgg" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_7C8k9f5lEeG5q5QF5Lsvgg" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_7C8k9v5lEeG5q5QF5Lsvgg" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_7C8k9_5lEeG5q5QF5Lsvgg" componentName="cSetBody" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="192">
+    <elementParameter xmi:id="_7C8k-P5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cSetBody_5"/>
+    <elementParameter xmi:id="_7C8k-f5lEeG5q5QF5Lsvgg" field="CLOSED_LIST" name="LANGUAGES" value="constant"/>
+    <elementParameter xmi:id="_7C8k-v5lEeG5q5QF5Lsvgg" field="TEXT" name="EXPRESSION" value="&quot;Edward Ost&quot;"/>
+    <elementParameter xmi:id="_7C8k-_5lEeG5q5QF5Lsvgg" field="TEXT" name="LABEL" value="initializeRequest"/>
+    <elementParameter xmi:id="_7C8k_P5lEeG5q5QF5Lsvgg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_7C8k_f5lEeG5q5QF5Lsvgg" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_7C8k_v5lEeG5q5QF5Lsvgg" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_7C8k__5lEeG5q5QF5Lsvgg" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_7C8lAP5lEeG5q5QF5Lsvgg" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
+    <elementParameter xmi:id="_7C8lAf5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_14"/>
+    <elementParameter xmi:id="_7C8lAv5lEeG5q5QF5Lsvgg" field="TEXT" name="URI" value="context.minaClient"/>
+    <elementParameter xmi:id="_7C8lA_5lEeG5q5QF5Lsvgg" field="TABLE" name="HOTLIBS"/>
+    <elementParameter xmi:id="_7C8lBP5lEeG5q5QF5Lsvgg" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_7C8lBf5lEeG5q5QF5Lsvgg" field="MODULE_LIST" name="LIBRARY" value=""/>
+    <elementParameter xmi:id="_7C8lBv5lEeG5q5QF5Lsvgg" field="TEXT" name="LABEL" value="minaClient"/>
+    <elementParameter xmi:id="_7C8lB_5lEeG5q5QF5Lsvgg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_7C8lCP5lEeG5q5QF5Lsvgg" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_7C8lCf5lEeG5q5QF5Lsvgg" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_7C8lCv5lEeG5q5QF5Lsvgg" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_7C8lC_5lEeG5q5QF5Lsvgg" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="192">
+    <elementParameter xmi:id="_7C8lDP5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1"/>
+    <elementParameter xmi:id="_7C8lDf5lEeG5q5QF5Lsvgg" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;MinaClient: response: &quot; + exchange.getIn().getBody(String.class));"/>
+    <elementParameter xmi:id="_7C8lDv5lEeG5q5QF5Lsvgg" field="TEXT" name="LABEL" value="printClientResponse"/>
+    <elementParameter xmi:id="_7C8lD_5lEeG5q5QF5Lsvgg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_7C8lEP5lEeG5q5QF5Lsvgg" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_7C8lEf5lEeG5q5QF5Lsvgg" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_7C8lEv5lEeG5q5QF5Lsvgg" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <connection xmi:id="_7C8lE_5lEeG5q5QF5Lsvgg" connectorName="ROUTE" label="route17" lineStyle="14" metaname="cMessagingEndpoint_13" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_13" target="cSetBody_5">
+    <elementParameter xmi:id="_7C8lFP5lEeG5q5QF5Lsvgg" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_7C8lFf5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="route17"/>
+    <elementParameter xmi:id="_7C8lFv5lEeG5q5QF5Lsvgg" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_7C8lF_5lEeG5q5QF5Lsvgg" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_7C8lGP5lEeG5q5QF5Lsvgg" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7C8lGf5lEeG5q5QF5Lsvgg" connectorName="ROUTE" label="route19" lineStyle="14" metaname="cSetBody_5" offsetLabelX="0" offsetLabelY="0" source="cSetBody_5" target="cMessagingEndpoint_14">
+    <elementParameter xmi:id="_7C8lGv5lEeG5q5QF5Lsvgg" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_7C8lG_5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="route19"/>
+    <elementParameter xmi:id="_7C8lHP5lEeG5q5QF5Lsvgg" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_7C8lHf5lEeG5q5QF5Lsvgg" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_7C8lHv5lEeG5q5QF5Lsvgg" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7C8lH_5lEeG5q5QF5Lsvgg" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cMessagingEndpoint_14" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_14" target="cProcessor_1">
+    <elementParameter xmi:id="_7C8lIP5lEeG5q5QF5Lsvgg" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_7C8lIf5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="route1"/>
+    <elementParameter xmi:id="_7C8lIv5lEeG5q5QF5Lsvgg" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_7C8lI_5lEeG5q5QF5Lsvgg" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_7C8lJP5lEeG5q5QF5Lsvgg" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <note xmi:id="_7C8lJf5lEeG5q5QF5Lsvgg" opaque="true" posX="832" posY="192" sizeHeight="64" sizeWidth="225" text="Mina Client">
+    <elementParameter xmi:id="_7C8lJv5lEeG5q5QF5Lsvgg" field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
+    <elementParameter xmi:id="_7C8lJ_5lEeG5q5QF5Lsvgg" field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
+    <elementParameter xmi:id="_7C8lKP5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_LEFT" value="false"/>
+    <elementParameter xmi:id="_7C8lKf5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_RIGHT" value="false"/>
+    <elementParameter xmi:id="_7C8lKv5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_CENTER" value="true"/>
+    <elementParameter xmi:id="_7C8lK_5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTELABEL_CENTER" value="true"/>
+    <elementParameter xmi:id="_7C8lLP5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_TOP" value="false"/>
+    <elementParameter xmi:id="_7C8lLf5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_BOTTOM" value="false"/>
+    <elementParameter xmi:id="_7C8lLv5lEeG5q5QF5Lsvgg" field="TEXT" name="NOTE_FONT" value="Time New Roman"/>
+    <elementParameter xmi:id="_7C8lL_5lEeG5q5QF5Lsvgg" field="TEXT" name="FONT_SIZE" value="10"/>
+    <elementParameter xmi:id="_7C8lMP5lEeG5q5QF5Lsvgg" field="CHECK" name="FONT_BOLD" value="true"/>
+    <elementParameter xmi:id="_7C8lMf5lEeG5q5QF5Lsvgg" field="CHECK" name="FONT_ITALIC" value="false"/>
+    <elementParameter xmi:id="_7C8lMv5lEeG5q5QF5Lsvgg" field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
+  </note>
+  <note xmi:id="_7C8lM_5lEeG5q5QF5Lsvgg" opaque="true" posX="416" posY="256" sizeHeight="65" sizeWidth="129" text="Client">
+    <elementParameter xmi:id="_7C8lNP5lEeG5q5QF5Lsvgg" field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
+    <elementParameter xmi:id="_7C8lNf5lEeG5q5QF5Lsvgg" field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
+    <elementParameter xmi:id="_7C8lNv5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_LEFT" value="false"/>
+    <elementParameter xmi:id="_7C8lN_5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_RIGHT" value="false"/>
+    <elementParameter xmi:id="_7C8lOP5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_CENTER" value="true"/>
+    <elementParameter xmi:id="_7C8lOf5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTELABEL_CENTER" value="true"/>
+    <elementParameter xmi:id="_7C8lOv5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_TOP" value="false"/>
+    <elementParameter xmi:id="_7C8lO_5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_BOTTOM" value="false"/>
+    <elementParameter xmi:id="_7C8lPP5lEeG5q5QF5Lsvgg" field="TEXT" name="NOTE_FONT" value="Time New Roman"/>
+    <elementParameter xmi:id="_7C8lPf5lEeG5q5QF5Lsvgg" field="TEXT" name="FONT_SIZE" value="8"/>
+    <elementParameter xmi:id="_7C8lPv5lEeG5q5QF5Lsvgg" field="CHECK" name="FONT_BOLD" value="true"/>
+    <elementParameter xmi:id="_7C8lP_5lEeG5q5QF5Lsvgg" field="CHECK" name="FONT_ITALIC" value="false"/>
+    <elementParameter xmi:id="_7C8lQP5lEeG5q5QF5Lsvgg" field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
+  </note>
+  <note xmi:id="_7C8lQf5lEeG5q5QF5Lsvgg" opaque="true" posX="192" posY="32" sizeHeight="64" sizeWidth="225" text="Mina Request-Reply">
+    <elementParameter xmi:id="_7C8lQv5lEeG5q5QF5Lsvgg" field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
+    <elementParameter xmi:id="_7C8lQ_5lEeG5q5QF5Lsvgg" field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
+    <elementParameter xmi:id="_7C8lRP5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_LEFT" value="false"/>
+    <elementParameter xmi:id="_7C8lRf5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_RIGHT" value="false"/>
+    <elementParameter xmi:id="_7C8lRv5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_CENTER" value="true"/>
+    <elementParameter xmi:id="_7C8lR_5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTELABEL_CENTER" value="true"/>
+    <elementParameter xmi:id="_7C8lSP5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_TOP" value="false"/>
+    <elementParameter xmi:id="_7C8lSf5lEeG5q5QF5Lsvgg" field="RADIO" name="NOTETXT_BOTTOM" value="false"/>
+    <elementParameter xmi:id="_7C8lSv5lEeG5q5QF5Lsvgg" field="TEXT" name="NOTE_FONT" value="Time New Roman"/>
+    <elementParameter xmi:id="_7C8lS_5lEeG5q5QF5Lsvgg" field="TEXT" name="FONT_SIZE" value="10"/>
+    <elementParameter xmi:id="_7C8lTP5lEeG5q5QF5Lsvgg" field="CHECK" name="FONT_BOLD" value="true"/>
+    <elementParameter xmi:id="_7C8lTf5lEeG5q5QF5Lsvgg" field="CHECK" name="FONT_ITALIC" value="false"/>
+    <elementParameter xmi:id="_7C8lTv5lEeG5q5QF5Lsvgg" field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
+  </note>
+  <subjob xmi:id="_7C8lT_5lEeG5q5QF5Lsvgg">
+    <elementParameter xmi:id="_7C8lUP5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cConfig_1"/>
+    <elementParameter xmi:id="_7C8lUf5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7C8lUv5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7C8lU_5lEeG5q5QF5Lsvgg">
+    <elementParameter xmi:id="_7C8lVP5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_13"/>
+    <elementParameter xmi:id="_7C8lVf5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7C8lVv5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7C8lV_5lEeG5q5QF5Lsvgg">
+    <elementParameter xmi:id="_7C8lWP5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cSetBody_5"/>
+    <elementParameter xmi:id="_7C8lWf5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7C8lWv5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7C8lW_5lEeG5q5QF5Lsvgg">
+    <elementParameter xmi:id="_7C8lXP5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_14"/>
+    <elementParameter xmi:id="_7C8lXf5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7C8lXv5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7C8lX_5lEeG5q5QF5Lsvgg">
+    <elementParameter xmi:id="_7C8lYP5lEeG5q5QF5Lsvgg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1"/>
+    <elementParameter xmi:id="_7C8lYf5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7C8lYv5lEeG5q5QF5Lsvgg" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

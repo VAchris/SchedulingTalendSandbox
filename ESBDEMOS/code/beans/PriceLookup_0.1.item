@@ -1,0 +1,13 @@
+package beans;
+
+import org.apache.camel.Exchange;
+import org.apache.camel.processor.aggregate.AggregationStrategy;
+
+public class PriceLookup implements AggregationStrategy {
+
+		public Exchange aggregate(Exchange oldEx, Exchange newEx) {
+			int price = newEx.getIn().getBody(Integer.class);
+			oldEx.getIn().setHeader("itemPrice", price);
+			return oldEx;
+		}
+}

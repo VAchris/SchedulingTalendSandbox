@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_ddIgk_5mEeG5q5QF5Lsvgg" name="MSSQL_AdventureWorks2012" label="MSSQL_AdventureWorks2012" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:1433/AdventureWorks2012;instance=SQLEXPRESS" Port="1433" Username="sa" Password="HpA8dp29LhM=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="AdventureWorks2012" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="instance=SQLEXPRESS" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_ddIglP5mEeG5q5QF5Lsvgg" tag="Using URL" value="jdbc:jtds:sqlserver://localhost:1433/AdventureWorks2012;instance=SQLEXPRESS"/>
+  <taggedValue xmi:id="_ddIglf5mEeG5q5QF5Lsvgg" tag="package filter" value=""/>
+  <taggedValue xmi:id="_ddIglv5mEeG5q5QF5Lsvgg" tag="Status" value=""/>
+  <taggedValue xmi:id="_ddIgl_5mEeG5q5QF5Lsvgg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_ddIgmP5mEeG5q5QF5Lsvgg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_ddIgmf5mEeG5q5QF5Lsvgg" tag="Description" value=""/>
+  <taggedValue xmi:id="_ddIgmv5mEeG5q5QF5Lsvgg" tag="Author" value=""/>
+  <taggedValue xmi:id="_ddIgm_5mEeG5q5QF5Lsvgg" tag="otherParameter" value=""/>
+</TalendMetadata:DatabaseConnection>

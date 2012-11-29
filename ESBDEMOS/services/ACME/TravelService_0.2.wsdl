@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="TravelService"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="estimateTripCostRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="destination"
+							type="xsd:string">
+						</xsd:element>
+						<xsd:element name="departureDate"
+							type="xsd:string">
+						</xsd:element>
+						<xsd:element name="duration"
+							type="xsd:int">
+						</xsd:element>
+						<xsd:element name="flightRequired"
+							type="xsd:string">
+						</xsd:element>
+						<xsd:element name="hotelRequired"
+							type="xsd:string">
+						</xsd:element>
+						<xsd:element name="carRequired"
+							type="xsd:string">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="estimateTripCostResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="estimatedCost"
+							type="xsd:float">
+						</xsd:element>
+						<xsd:element name="currency"
+							type="xsd:string">
+						</xsd:element>
+						<xsd:element name="notes"
+							type="xsd:string">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="evaluateTripRisk">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="evaluateTripRiskResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="getWeatherReport">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="getWeatherReportResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="estimateTripCostFault">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="estimateTripCostFault"
+							type="xsd:string">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="evaluateTripRiskFault">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="evaluateTripRiskFault"
+							type="xsd:string">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="getWeatherReportFault">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="getWeatherReportFault"
+							type="xsd:string">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="estimateTripCostRequest">
+		<wsdl:part name="parameters" element="tns:estimateTripCostRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="estimateTripCostResponse">
+		<wsdl:part name="parameters" element="tns:estimateTripCostResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:message name="evaluateTripRiskRequest">
+		<wsdl:part name="parameters" element="tns:evaluateTripRisk"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="evaluateTripRiskResponse">
+		<wsdl:part name="parameters" element="tns:evaluateTripRiskResponse"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getWeatherReportRequest">
+		<wsdl:part name="parameters" element="tns:getWeatherReport"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getWeatherReportResponse">
+		<wsdl:part name="parameters" element="tns:getWeatherReportResponse"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="estimateTripCostFault">
+		<wsdl:part name="parameters" element="tns:estimateTripCostFault"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="evaluateTripRiskFault">
+		<wsdl:part name="parameters" element="tns:evaluateTripRiskFault"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getWeatherReportFault">
+		<wsdl:part name="parameters" element="tns:getWeatherReportFault"></wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="TravelServicePortType">
+		<wsdl:operation name="estimateTripCost">
+			<wsdl:input message="tns:estimateTripCostRequest"></wsdl:input>
+			<wsdl:output message="tns:estimateTripCostResponse"></wsdl:output>
+            <wsdl:fault name="fault" message="tns:estimateTripCostFault"></wsdl:fault>
+        </wsdl:operation>
+		<wsdl:operation name="evaluateTripRisk">
+			<wsdl:input message="tns:evaluateTripRiskRequest"></wsdl:input>
+			<wsdl:output message="tns:evaluateTripRiskResponse"></wsdl:output>
+            <wsdl:fault name="fault" message="tns:evaluateTripRiskFault"></wsdl:fault>
+        </wsdl:operation>
+		<wsdl:operation name="getWeatherReport">
+			<wsdl:input message="tns:getWeatherReportRequest"></wsdl:input>
+			<wsdl:output message="tns:getWeatherReportResponse"></wsdl:output>
+            <wsdl:fault name="fault" message="tns:getWeatherReportFault"></wsdl:fault>
+        </wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="TravelServiceBinding"
+		type="tns:TravelServicePortType">
+
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="estimateTripCost">
+
+			<soap:operation
+				soapAction="http://www.talend.org/service/estimateTripCost" />
+			<wsdl:input>
+
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="fault">
+
+				<soap:fault use="literal" name="fault" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="evaluateTripRisk">
+
+			<soap:operation
+				soapAction="http://www.talend.org/service/evaluateTripRisk" />
+			<wsdl:input>
+
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="fault">
+
+				<soap:fault use="literal" name="fault" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWeatherReport">
+
+			<soap:operation
+				soapAction="http://www.talend.org/service/getWeatherReport" />
+			<wsdl:input>
+
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="fault">
+
+				<soap:fault use="literal" name="fault" />
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="TravelService">
+		<wsdl:port name="TravelServicePort" binding="tns:TravelServiceBinding">
+			<soap:address location="http://localhost:8090/services/TravelService" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_fdt4Q_5mEeG5q5QF5Lsvgg" comment="connectionComment" label="connectionLabel" dataPackage="_fdt4RP5mEeG5q5QF5Lsvgg"/>
+  <TalendMetadata:GenericPackage xmi:id="_fdt4RP5mEeG5q5QF5Lsvgg" dataManager="_fdt4Q_5mEeG5q5QF5Lsvgg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_fdt4Rf5mEeG5q5QF5Lsvgg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4Rv5mEeG5q5QF5Lsvgg" name="moment" id="2398" label="moment" sourceType="" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_fdt4R_5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4SP5mEeG5q5QF5Lsvgg" name="pid" id="2399" label="pid" length="20" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4Sf5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4Sv5mEeG5q5QF5Lsvgg" name="father_pid" id="2400" label="father_pid" length="20" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4S_5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4TP5mEeG5q5QF5Lsvgg" name="root_pid" id="2401" label="root_pid" length="20" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4Tf5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4Tv5mEeG5q5QF5Lsvgg" name="system_pid" id="2402" label="system_pid" length="8" sourceType="" talendType="id_Long">
+        <initialValue xmi:id="_fdt4T_5mEeG5q5QF5Lsvgg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4UP5mEeG5q5QF5Lsvgg" name="project" id="2403" label="project" length="50" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4Uf5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4Uv5mEeG5q5QF5Lsvgg" name="job" id="2404" label="job" length="50" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4U_5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4VP5mEeG5q5QF5Lsvgg" name="job_repository_id" id="2405" label="job_repository_id" length="255" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4Vf5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4Vv5mEeG5q5QF5Lsvgg" name="job_version" id="2406" label="job_version" length="255" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4V_5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4WP5mEeG5q5QF5Lsvgg" name="context" id="2407" label="context" length="50" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4Wf5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4Wv5mEeG5q5QF5Lsvgg" name="origin" id="2408" label="origin" length="255" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4W_5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4XP5mEeG5q5QF5Lsvgg" name="label" id="2409" label="label" length="255" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4Xf5mEeG5q5QF5Lsvgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4Xv5mEeG5q5QF5Lsvgg" name="count" id="2410" label="count" length="3" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_fdt4X_5mEeG5q5QF5Lsvgg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4YP5mEeG5q5QF5Lsvgg" name="reference" id="2411" label="reference" length="3" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_fdt4Yf5mEeG5q5QF5Lsvgg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fdt4Yv5mEeG5q5QF5Lsvgg" name="thresholds" id="2412" label="thresholds" length="255" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_fdt4Y_5mEeG5q5QF5Lsvgg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

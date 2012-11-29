@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_NFCR0BEfEeKT_OvCFC8tAQ" dataPackage="_NFCR0REfEeKT_OvCFC8tAQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_NFCR0REfEeKT_OvCFC8tAQ" dataManager="_NFCR0BEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NFCR0hEfEeKT_OvCFC8tAQ" id="_uqVdAG_HEeGbpY0mDDqu3A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NFCR0xEfEeKT_OvCFC8tAQ" name="idstate" label="idstate" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NFCR1BEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NFCR1REfEeKT_OvCFC8tAQ" name="labelstate" label="labelstate" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_NFCR1hEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,15 @@
+package beans;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class MySlf4jTest {
+
+	static private Logger log = LoggerFactory.getLogger(MySlf4jTest.class);
+	
+    public static void append(String message) {
+        System.out.println("MySlf4jTest: " + message + " *** ");
+        
+        log.info("cBean slf4j statement");
+    }
+}

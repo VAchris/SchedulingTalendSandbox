@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_MnyVIxEfEeKT_OvCFC8tAQ" comment="connectionComment" label="connectionLabel" dataPackage="_MnyVJBEfEeKT_OvCFC8tAQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_MnyVJBEfEeKT_OvCFC8tAQ" dataManager="_MnyVIxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_MnyVJREfEeKT_OvCFC8tAQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MnyVJhEfEeKT_OvCFC8tAQ" name="stationname" id="10501" label="stationname" sourceType="" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_MnyVJxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MnyVKBEfEeKT_OvCFC8tAQ" name="stationvalue" id="10502" label="stationvalue" sourceType="" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_MnyVKREfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

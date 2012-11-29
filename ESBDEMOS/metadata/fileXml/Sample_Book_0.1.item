@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:XmlFileConnection xmi:id="_RePGsxEfEeKT_OvCFC8tAQ" dataPackage="_RePGvBEfEeKT_OvCFC8tAQ" XmlFilePath="/home/nfrancisco/Talend/talend_files_0.1/in/XML/sample.xml" Encoding="ISO-8859-1">
+    <schema xmi:id="_RePGtBEfEeKT_OvCFC8tAQ" LimitBoucle="50" AbsoluteXPathQuery="/root/biblio/livre">
+      <schemaTargets xmi:id="_RePGtREfEeKT_OvCFC8tAQ" RelativeXPathQuery="@id" TagName="id"/>
+      <schemaTargets xmi:id="_RePGthEfEeKT_OvCFC8tAQ" RelativeXPathQuery="titre/@sousTitre" TagName="sousTitre"/>
+      <schemaTargets xmi:id="_RePGtxEfEeKT_OvCFC8tAQ" RelativeXPathQuery="auteur" TagName="auteur"/>
+      <schemaTargets xmi:id="_RePGuBEfEeKT_OvCFC8tAQ" RelativeXPathQuery="infosEdition/editeur" TagName="editeur"/>
+      <schemaTargets xmi:id="_RePGuREfEeKT_OvCFC8tAQ" RelativeXPathQuery="infosEdition/lieuEdition" TagName="lieuEdition"/>
+      <schemaTargets xmi:id="_RePGuhEfEeKT_OvCFC8tAQ" RelativeXPathQuery="infosEdition/lieuImpression" TagName="lieuImpression"/>
+      <schemaTargets xmi:id="_RePGuxEfEeKT_OvCFC8tAQ" RelativeXPathQuery="infosEdition/ISBN" TagName="ISBN"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <TalendMetadata:GenericPackage xmi:id="_RePGvBEfEeKT_OvCFC8tAQ" dataManager="_RePGsxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RePGvREfEeKT_OvCFC8tAQ" id="_XcRYQB1CEd-XVfHSJU420w" label="livres">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RePGvhEfEeKT_OvCFC8tAQ" name="" label="id" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_RePGvxEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RePGwBEfEeKT_OvCFC8tAQ" name="" label="sousTitre" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_RePGwREfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RePGwhEfEeKT_OvCFC8tAQ" name="" label="auteur" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_RePGwxEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RePGxBEfEeKT_OvCFC8tAQ" name="" label="editeur" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_RePtwBEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RePtwREfEeKT_OvCFC8tAQ" name="" label="lieuEdition" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_RePtwhEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RePtwxEfEeKT_OvCFC8tAQ" name="" label="lieuImpression" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_RePtxBEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RePtxREfEeKT_OvCFC8tAQ" name="" label="ISBN" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_RePtxhEfEeKT_OvCFC8tAQ" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

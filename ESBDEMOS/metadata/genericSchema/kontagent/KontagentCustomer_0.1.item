@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_O9Y6kxEfEeKT_OvCFC8tAQ" comment="connectionComment" label="connectionLabel" dataPackage="_O9Y6lBEfEeKT_OvCFC8tAQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_O9Y6lBEfEeKT_OvCFC8tAQ" dataManager="_O9Y6kxEfEeKT_OvCFC8tAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_O9Y6lREfEeKT_OvCFC8tAQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O9Y6lhEfEeKT_OvCFC8tAQ" name="sysid" id="3096" label="sysid" sourceType="" talendType="id_Integer" key="true">
+        <initialValue xmi:id="_O9Y6lxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O9Y6mBEfEeKT_OvCFC8tAQ" name="lastname" id="3097" label="lastname" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_O9Y6mREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O9Y6mhEfEeKT_OvCFC8tAQ" name="firstname" id="3098" label="firstname" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_O9Y6mxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O9Y6nBEfEeKT_OvCFC8tAQ" name="city" id="3099" label="city" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_O9Y6nREfEeKT_OvCFC8tAQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O9Y6nhEfEeKT_OvCFC8tAQ" name="state" id="3100" label="state" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_O9Y6nxEfEeKT_OvCFC8tAQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

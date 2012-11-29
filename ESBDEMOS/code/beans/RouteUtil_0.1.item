@@ -1,0 +1,55 @@
+package beans;
+
+import org.apache.camel.CamelContext;
+import org.apache.camel.builder.RouteBuilder;
+
+public class RouteUtil extends RouteBuilder {
+
+	private String fromUri;
+	private String toUri;
+	private String routeId;
+
+	public RouteUtil() {
+		super();
+	}
+	
+	public RouteUtil(CamelContext camelContext) {
+		super(camelContext);
+	}
+	
+	public RouteUtil(CamelContext camelContext, String fromUri, String toUri, String routeId) {
+		super(camelContext);
+		this.fromUri = fromUri;
+		this.toUri = toUri;
+		this.routeId = routeId;
+	}
+
+	public void configure() throws Exception {
+		from(fromUri).routeId(routeId).to(toUri);
+	}
+	
+	public String getFromUri() {
+		return fromUri;
+	}
+
+	public void setFromUri(String fromUri) {
+		this.fromUri = fromUri;
+	}
+
+	public String getToUri() {
+		return toUri;
+	}
+
+	public void setToUri(String toUri) {
+		this.toUri = toUri;
+	}
+
+	public String getRouteId() {
+		return routeId;
+	}
+
+	public void setRouteId(String routeId) {
+		this.routeId = routeId;
+	}
+	
+}

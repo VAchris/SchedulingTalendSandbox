@@ -1,0 +1,20 @@
+package beans;
+
+
+public class OrderFactory {
+
+    public OrderFactory() {
+    }
+
+	public Orders createOrder(String orderId, String title) {
+		return new Orders(orderId, title);
+	}
+	
+	public Orders createOrderFromString(String orderInfo) {
+		int commaIndex = orderInfo.indexOf(",");
+		String orderId = orderInfo.substring(0, commaIndex);
+		String title = orderInfo.substring(commaIndex  + 1);
+		return this.createOrder(orderId, title);
+	}
+
+}
